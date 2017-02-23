@@ -1,0 +1,29 @@
+{
+  "name": "font-fabulous",
+  "description": "A fabulous iconset packaged as a font",
+  "authors": [
+    "Eric Winchell",
+    "Dávid Halász"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "font",
+    "icon",
+    "iconset",
+    "fonticons"
+  ],
+  "homepage": "https://github.com/ManageIQ/font-fabulous",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "lib",
+    "templates",
+    ".fontcustom",
+    "Dockerfile",
+    "Gemfile",
+    "Rakefile",
+    "font-fabulous.gemspec",
+    "fontcustom.yml",
+    "package.json"
+  ]
+}

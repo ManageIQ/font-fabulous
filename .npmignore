@@ -1,0 +1,12 @@
+lib
+templates
+.fontcustom
+.fontcustom-manifest.json
+Dockerfile
+Gemfile
+Gemfile.lock
+Rakefile
+bower.json
+font-fabulous.gemspec
+fontcustom.yml
+preview.html

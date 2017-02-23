@@ -1,0 +1,21 @@
+{
+  "name": "font-fabulous",
+  "version": "0.0.1",
+  "description": "A fabulous iconset packaged as a font",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ManageIQ/font-fabulous.git"
+  },
+  "keywords": [
+    "font",
+    "icon",
+    "iconset",
+    "fonticons"
+  ],
+  "author": "Eric Winchell, Dávid Halász",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ManageIQ/font-fabulous/issues"
+  },
+  "homepage": "https://github.com/ManageIQ/font-fabulous"
+}
