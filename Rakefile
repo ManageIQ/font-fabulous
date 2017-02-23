@@ -30,3 +30,7 @@ desc 'Clean up the manifest file'
 task :cleanup do
   system 'rm -f .fontcustom-manifest.json'
 end
+
+task :release do
+  system 'npm publish'
+end
