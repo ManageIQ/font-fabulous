@@ -1,0 +1,8 @@
+dist: trusty
+sudo: false
+language: ruby
+addons:
+  apt:
+    packages:
+      - fontforge
+      - woff-tools
