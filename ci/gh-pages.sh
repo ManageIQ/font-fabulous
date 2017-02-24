@@ -12,4 +12,4 @@ git add index.html assets/fonts assets/stylesheets
 git commit -m "GitHub pages build from ${HASH}"
 set +x
 echo "git push origin HEAD:gh-pages"
-git push https://$GITHUB_AUTH@github.com/ManageIQ/font-fabulous.git HEAD:gh-pages > /dev/null
+git push https://$GITHUB_AUTH@github.com/ManageIQ/font-fabulous.git HEAD:gh-pages &> /dev/null
