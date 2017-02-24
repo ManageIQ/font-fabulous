@@ -6,3 +6,9 @@ addons:
     packages:
       - fontforge
       - woff-tools
+deploy:
+  - provider: script
+    script: ci/gh-pages.sh
+    skip_cleanup: true
+    on:
+      branch: master
