@@ -23,9 +23,33 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.ff.ff-boolean:before,
+.ff.ff-cloud-network:before,
+.ff.ff-cloud-object-store:before,
+.ff.ff-configured-system:before,
+.ff.ff-dna:before,
+.ff.ff-drift:before,
+.ff.ff-field:before,
 .ff.ff-file-ear-o:before,
+.ff.ff-file-output-o:before,
+.ff.ff-file-share-o:before,
 .ff.ff-file-war-o:before,
-.ff.ff-firewall:before {
+.ff.ff-firewall:before,
+.ff.ff-integer:before,
+.ff.ff-load-balancer:before,
+.ff.ff-manageiq:before,
+.ff.ff-monitoring:before,
+.ff.ff-network-card:before,
+.ff.ff-network-interface:before,
+.ff.ff-network-port:before,
+.ff.ff-network-switch:before,
+.ff.ff-resource:before,
+.ff.ff-software-package:before,
+.ff.ff-stack:before,
+.ff.ff-string:before,
+.ff.ff-synchronize:before,
+.ff.ff-user-role:before,
+.ff.ff-users:before {
   display: inline-block;
   font-family: "font-fabulous";
   font-style: normal;
@@ -40,10 +64,58 @@
   font-smoothing: antialiased;
 }
 
+.ff.ff-boolean:before { content: "\f103"; }
+.ff.ff-cloud-network:before { content: "\f104"; }
+.ff.ff-cloud-object-store:before { content: "\f105"; }
+.ff.ff-configured-system:before { content: "\f106"; }
+.ff.ff-dna:before { content: "\f107"; }
+.ff.ff-drift:before { content: "\f108"; }
+.ff.ff-field:before { content: "\f109"; }
 .ff.ff-file-ear-o:before { content: "\f100"; }
+.ff.ff-file-output-o:before { content: "\f10a"; }
+.ff.ff-file-share-o:before { content: "\f10b"; }
 .ff.ff-file-war-o:before { content: "\f101"; }
 .ff.ff-firewall:before { content: "\f102"; }
+.ff.ff-integer:before { content: "\f10c"; }
+.ff.ff-load-balancer:before { content: "\f10d"; }
+.ff.ff-manageiq:before { content: "\f10e"; }
+.ff.ff-monitoring:before { content: "\f10f"; }
+.ff.ff-network-card:before { content: "\f110"; }
+.ff.ff-network-interface:before { content: "\f111"; }
+.ff.ff-network-port:before { content: "\f112"; }
+.ff.ff-network-switch:before { content: "\f113"; }
+.ff.ff-resource:before { content: "\f114"; }
+.ff.ff-software-package:before { content: "\f115"; }
+.ff.ff-stack:before { content: "\f116"; }
+.ff.ff-string:before { content: "\f117"; }
+.ff.ff-synchronize:before { content: "\f118"; }
+.ff.ff-user-role:before { content: "\f119"; }
+.ff.ff-users:before { content: "\f11a"; }
 
+$font-font-fabulous-boolean: "\f103";
+$font-font-fabulous-cloud-network: "\f104";
+$font-font-fabulous-cloud-object-store: "\f105";
+$font-font-fabulous-configured-system: "\f106";
+$font-font-fabulous-dna: "\f107";
+$font-font-fabulous-drift: "\f108";
+$font-font-fabulous-field: "\f109";
 $font-font-fabulous-file-ear-o: "\f100";
+$font-font-fabulous-file-output-o: "\f10a";
+$font-font-fabulous-file-share-o: "\f10b";
 $font-font-fabulous-file-war-o: "\f101";
 $font-font-fabulous-firewall: "\f102";
+$font-font-fabulous-integer: "\f10c";
+$font-font-fabulous-load-balancer: "\f10d";
+$font-font-fabulous-manageiq: "\f10e";
+$font-font-fabulous-monitoring: "\f10f";
+$font-font-fabulous-network-card: "\f110";
+$font-font-fabulous-network-interface: "\f111";
+$font-font-fabulous-network-port: "\f112";
+$font-font-fabulous-network-switch: "\f113";
+$font-font-fabulous-resource: "\f114";
+$font-font-fabulous-software-package: "\f115";
+$font-font-fabulous-stack: "\f116";
+$font-font-fabulous-string: "\f117";
+$font-font-fabulous-synchronize: "\f118";
+$font-font-fabulous-user-role: "\f119";
+$font-font-fabulous-users: "\f11a";
