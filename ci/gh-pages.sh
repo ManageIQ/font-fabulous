@@ -10,5 +10,5 @@ rm -rf assets
 mv -f tmp assets
 git add index.html assets/fonts assets/stylesheets
 git commit -m "GitHub pages build from ${HASH}"
-git push upstream HEAD:gh-pages &> /dev/null
+git push upstream HEAD:gh-pages
 set +x
