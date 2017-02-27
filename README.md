@@ -1,5 +1,7 @@
 # Font Fabulous
 
+[![Build Status](https://travis-ci.org/ManageIQ/font-fabulous.svg?branch=master)](https://travis-ci.org/ManageIQ/font-fabulous)
+
 Font Fabulous is a suite of pictographic icons for scalable vector graphics designed for the ManageIQ open-source Management Platform but available to everyone. Font Fabulous fills a gap not covered by other popular icon collections.
 
 ## Installation
