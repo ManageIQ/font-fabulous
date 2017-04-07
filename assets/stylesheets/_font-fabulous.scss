@@ -41,10 +41,45 @@
 .ff.ff-element:before,
 .ff.ff-exists:before,
 .ff.ff-field:before,
+.ff.ff-file-bat-o:before,
+.ff.ff-file-bmp-o:before,
+.ff.ff-file-com-o:before,
+.ff.ff-file-csv-o:before,
+.ff.ff-file-dat-o:before,
+.ff.ff-file-dll-o:before,
+.ff.ff-file-doc-o:before,
 .ff.ff-file-ear-o:before,
+.ff.ff-file-exe-o:before,
+.ff.ff-file-gif-o:before,
+.ff.ff-file-gz-o:before,
+.ff.ff-file-html-o:before,
+.ff.ff-file-iso-o:before,
+.ff.ff-file-jar-o:before,
+.ff.ff-file-java-o:before,
+.ff.ff-file-jpg-o:before,
+.ff.ff-file-js-o:before,
+.ff.ff-file-json-o:before,
+.ff.ff-file-log-o:before,
+.ff.ff-file-mp3-o:before,
+.ff.ff-file-mp4-o:before,
+.ff.ff-file-ogg-o:before,
+.ff.ff-file-ogv-o:before,
 .ff.ff-file-output-o:before,
+.ff.ff-file-pdf-o:before,
+.ff.ff-file-png-o:before,
+.ff.ff-file-rar-o:before,
+.ff.ff-file-rmp-o:before,
 .ff.ff-file-share-o:before,
+.ff.ff-file-tar-o:before,
+.ff.ff-file-txt-o:before,
 .ff.ff-file-war-o:before,
+.ff.ff-file-wav-o:before,
+.ff.ff-file-webm-o:before,
+.ff.ff-file-webp-o:before,
+.ff.ff-file-xml-o:before,
+.ff.ff-file-yaml-o:before,
+.ff.ff-file-yml-o:before,
+.ff.ff-file-zip-o:before,
 .ff.ff-firewall:before,
 .ff.ff-float:before,
 .ff.ff-group:before,
@@ -106,39 +141,74 @@
 .ff.ff-element:before { content: "\f10f"; }
 .ff.ff-exists:before { content: "\f110"; }
 .ff.ff-field:before { content: "\f111"; }
-.ff.ff-file-ear-o:before { content: "\f112"; }
-.ff.ff-file-output-o:before { content: "\f113"; }
-.ff.ff-file-share-o:before { content: "\f114"; }
-.ff.ff-file-war-o:before { content: "\f115"; }
-.ff.ff-firewall:before { content: "\f116"; }
-.ff.ff-float:before { content: "\f117"; }
-.ff.ff-group:before { content: "\f118"; }
-.ff.ff-hexagon:before { content: "\f119"; }
-.ff.ff-integer:before { content: "\f11a"; }
-.ff.ff-load-balancer:before { content: "\f11b"; }
-.ff.ff-manageiq:before { content: "\f11c"; }
-.ff.ff-method:before { content: "\f11d"; }
-.ff.ff-monitoring:before { content: "\f11e"; }
-.ff.ff-network-card:before { content: "\f11f"; }
-.ff.ff-network-interface:before { content: "\f120"; }
-.ff.ff-network-port:before { content: "\f121"; }
-.ff.ff-network-switch:before { content: "\f122"; }
-.ff.ff-parameter:before { content: "\f123"; }
-.ff.ff-password:before { content: "\f124"; }
-.ff.ff-relationship:before { content: "\f125"; }
-.ff.ff-resource:before { content: "\f126"; }
-.ff.ff-software-package:before { content: "\f127"; }
-.ff.ff-stack:before { content: "\f128"; }
-.ff.ff-state:before { content: "\f129"; }
-.ff.ff-string:before { content: "\f12a"; }
-.ff.ff-synchronize:before { content: "\f12b"; }
-.ff.ff-tab:before { content: "\f12c"; }
-.ff.ff-template:before { content: "\f12d"; }
-.ff.ff-timeline:before { content: "\f12e"; }
-.ff.ff-triangle:before { content: "\f12f"; }
-.ff.ff-user-role:before { content: "\f130"; }
-.ff.ff-users:before { content: "\f131"; }
-.ff.ff-view-expanded:before { content: "\f132"; }
+.ff.ff-file-bat-o:before { content: "\f112"; }
+.ff.ff-file-bmp-o:before { content: "\f113"; }
+.ff.ff-file-com-o:before { content: "\f114"; }
+.ff.ff-file-csv-o:before { content: "\f115"; }
+.ff.ff-file-dat-o:before { content: "\f116"; }
+.ff.ff-file-dll-o:before { content: "\f117"; }
+.ff.ff-file-doc-o:before { content: "\f118"; }
+.ff.ff-file-ear-o:before { content: "\f119"; }
+.ff.ff-file-exe-o:before { content: "\f11a"; }
+.ff.ff-file-gif-o:before { content: "\f11b"; }
+.ff.ff-file-gz-o:before { content: "\f11c"; }
+.ff.ff-file-html-o:before { content: "\f11d"; }
+.ff.ff-file-iso-o:before { content: "\f11e"; }
+.ff.ff-file-jar-o:before { content: "\f11f"; }
+.ff.ff-file-java-o:before { content: "\f120"; }
+.ff.ff-file-jpg-o:before { content: "\f121"; }
+.ff.ff-file-js-o:before { content: "\f122"; }
+.ff.ff-file-json-o:before { content: "\f123"; }
+.ff.ff-file-log-o:before { content: "\f124"; }
+.ff.ff-file-mp3-o:before { content: "\f125"; }
+.ff.ff-file-mp4-o:before { content: "\f126"; }
+.ff.ff-file-ogg-o:before { content: "\f127"; }
+.ff.ff-file-ogv-o:before { content: "\f128"; }
+.ff.ff-file-output-o:before { content: "\f129"; }
+.ff.ff-file-pdf-o:before { content: "\f12a"; }
+.ff.ff-file-png-o:before { content: "\f12b"; }
+.ff.ff-file-rar-o:before { content: "\f12c"; }
+.ff.ff-file-rmp-o:before { content: "\f12d"; }
+.ff.ff-file-share-o:before { content: "\f12e"; }
+.ff.ff-file-tar-o:before { content: "\f12f"; }
+.ff.ff-file-txt-o:before { content: "\f130"; }
+.ff.ff-file-war-o:before { content: "\f131"; }
+.ff.ff-file-wav-o:before { content: "\f132"; }
+.ff.ff-file-webm-o:before { content: "\f133"; }
+.ff.ff-file-webp-o:before { content: "\f134"; }
+.ff.ff-file-xml-o:before { content: "\f135"; }
+.ff.ff-file-yaml-o:before { content: "\f136"; }
+.ff.ff-file-yml-o:before { content: "\f137"; }
+.ff.ff-file-zip-o:before { content: "\f138"; }
+.ff.ff-firewall:before { content: "\f139"; }
+.ff.ff-float:before { content: "\f13a"; }
+.ff.ff-group:before { content: "\f13b"; }
+.ff.ff-hexagon:before { content: "\f13c"; }
+.ff.ff-integer:before { content: "\f13d"; }
+.ff.ff-load-balancer:before { content: "\f13e"; }
+.ff.ff-manageiq:before { content: "\f13f"; }
+.ff.ff-method:before { content: "\f140"; }
+.ff.ff-monitoring:before { content: "\f141"; }
+.ff.ff-network-card:before { content: "\f142"; }
+.ff.ff-network-interface:before { content: "\f143"; }
+.ff.ff-network-port:before { content: "\f144"; }
+.ff.ff-network-switch:before { content: "\f145"; }
+.ff.ff-parameter:before { content: "\f146"; }
+.ff.ff-password:before { content: "\f147"; }
+.ff.ff-relationship:before { content: "\f148"; }
+.ff.ff-resource:before { content: "\f149"; }
+.ff.ff-software-package:before { content: "\f14a"; }
+.ff.ff-stack:before { content: "\f14b"; }
+.ff.ff-state:before { content: "\f14c"; }
+.ff.ff-string:before { content: "\f14d"; }
+.ff.ff-synchronize:before { content: "\f14e"; }
+.ff.ff-tab:before { content: "\f14f"; }
+.ff.ff-template:before { content: "\f150"; }
+.ff.ff-timeline:before { content: "\f151"; }
+.ff.ff-triangle:before { content: "\f152"; }
+.ff.ff-user-role:before { content: "\f153"; }
+.ff.ff-users:before { content: "\f154"; }
+.ff.ff-view-expanded:before { content: "\f155"; }
 
 $font-font-fabulous-action: "\f100";
 $font-font-fabulous-array: "\f101";
@@ -158,36 +228,71 @@ $font-font-fabulous-drift: "\f10e";
 $font-font-fabulous-element: "\f10f";
 $font-font-fabulous-exists: "\f110";
 $font-font-fabulous-field: "\f111";
-$font-font-fabulous-file-ear-o: "\f112";
-$font-font-fabulous-file-output-o: "\f113";
-$font-font-fabulous-file-share-o: "\f114";
-$font-font-fabulous-file-war-o: "\f115";
-$font-font-fabulous-firewall: "\f116";
-$font-font-fabulous-float: "\f117";
-$font-font-fabulous-group: "\f118";
-$font-font-fabulous-hexagon: "\f119";
-$font-font-fabulous-integer: "\f11a";
-$font-font-fabulous-load-balancer: "\f11b";
-$font-font-fabulous-manageiq: "\f11c";
-$font-font-fabulous-method: "\f11d";
-$font-font-fabulous-monitoring: "\f11e";
-$font-font-fabulous-network-card: "\f11f";
-$font-font-fabulous-network-interface: "\f120";
-$font-font-fabulous-network-port: "\f121";
-$font-font-fabulous-network-switch: "\f122";
-$font-font-fabulous-parameter: "\f123";
-$font-font-fabulous-password: "\f124";
-$font-font-fabulous-relationship: "\f125";
-$font-font-fabulous-resource: "\f126";
-$font-font-fabulous-software-package: "\f127";
-$font-font-fabulous-stack: "\f128";
-$font-font-fabulous-state: "\f129";
-$font-font-fabulous-string: "\f12a";
-$font-font-fabulous-synchronize: "\f12b";
-$font-font-fabulous-tab: "\f12c";
-$font-font-fabulous-template: "\f12d";
-$font-font-fabulous-timeline: "\f12e";
-$font-font-fabulous-triangle: "\f12f";
-$font-font-fabulous-user-role: "\f130";
-$font-font-fabulous-users: "\f131";
-$font-font-fabulous-view-expanded: "\f132";
+$font-font-fabulous-file-bat-o: "\f112";
+$font-font-fabulous-file-bmp-o: "\f113";
+$font-font-fabulous-file-com-o: "\f114";
+$font-font-fabulous-file-csv-o: "\f115";
+$font-font-fabulous-file-dat-o: "\f116";
+$font-font-fabulous-file-dll-o: "\f117";
+$font-font-fabulous-file-doc-o: "\f118";
+$font-font-fabulous-file-ear-o: "\f119";
+$font-font-fabulous-file-exe-o: "\f11a";
+$font-font-fabulous-file-gif-o: "\f11b";
+$font-font-fabulous-file-gz-o: "\f11c";
+$font-font-fabulous-file-html-o: "\f11d";
+$font-font-fabulous-file-iso-o: "\f11e";
+$font-font-fabulous-file-jar-o: "\f11f";
+$font-font-fabulous-file-java-o: "\f120";
+$font-font-fabulous-file-jpg-o: "\f121";
+$font-font-fabulous-file-js-o: "\f122";
+$font-font-fabulous-file-json-o: "\f123";
+$font-font-fabulous-file-log-o: "\f124";
+$font-font-fabulous-file-mp3-o: "\f125";
+$font-font-fabulous-file-mp4-o: "\f126";
+$font-font-fabulous-file-ogg-o: "\f127";
+$font-font-fabulous-file-ogv-o: "\f128";
+$font-font-fabulous-file-output-o: "\f129";
+$font-font-fabulous-file-pdf-o: "\f12a";
+$font-font-fabulous-file-png-o: "\f12b";
+$font-font-fabulous-file-rar-o: "\f12c";
+$font-font-fabulous-file-rmp-o: "\f12d";
+$font-font-fabulous-file-share-o: "\f12e";
+$font-font-fabulous-file-tar-o: "\f12f";
+$font-font-fabulous-file-txt-o: "\f130";
+$font-font-fabulous-file-war-o: "\f131";
+$font-font-fabulous-file-wav-o: "\f132";
+$font-font-fabulous-file-webm-o: "\f133";
+$font-font-fabulous-file-webp-o: "\f134";
+$font-font-fabulous-file-xml-o: "\f135";
+$font-font-fabulous-file-yaml-o: "\f136";
+$font-font-fabulous-file-yml-o: "\f137";
+$font-font-fabulous-file-zip-o: "\f138";
+$font-font-fabulous-firewall: "\f139";
+$font-font-fabulous-float: "\f13a";
+$font-font-fabulous-group: "\f13b";
+$font-font-fabulous-hexagon: "\f13c";
+$font-font-fabulous-integer: "\f13d";
+$font-font-fabulous-load-balancer: "\f13e";
+$font-font-fabulous-manageiq: "\f13f";
+$font-font-fabulous-method: "\f140";
+$font-font-fabulous-monitoring: "\f141";
+$font-font-fabulous-network-card: "\f142";
+$font-font-fabulous-network-interface: "\f143";
+$font-font-fabulous-network-port: "\f144";
+$font-font-fabulous-network-switch: "\f145";
+$font-font-fabulous-parameter: "\f146";
+$font-font-fabulous-password: "\f147";
+$font-font-fabulous-relationship: "\f148";
+$font-font-fabulous-resource: "\f149";
+$font-font-fabulous-software-package: "\f14a";
+$font-font-fabulous-stack: "\f14b";
+$font-font-fabulous-state: "\f14c";
+$font-font-fabulous-string: "\f14d";
+$font-font-fabulous-synchronize: "\f14e";
+$font-font-fabulous-tab: "\f14f";
+$font-font-fabulous-template: "\f150";
+$font-font-fabulous-timeline: "\f151";
+$font-font-fabulous-triangle: "\f152";
+$font-font-fabulous-user-role: "\f153";
+$font-font-fabulous-users: "\f154";
+$font-font-fabulous-view-expanded: "\f155";
