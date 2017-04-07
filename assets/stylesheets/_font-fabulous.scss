@@ -26,6 +26,7 @@
 .ff.ff-action:before,
 .ff.ff-array:before,
 .ff.ff-boolean:before,
+.ff.ff-broom:before,
 .ff.ff-circle:before,
 .ff.ff-class:before,
 .ff.ff-clone:before,
@@ -35,6 +36,7 @@
 .ff.ff-compare-different:before,
 .ff.ff-compare-same:before,
 .ff.ff-configured-system:before,
+.ff.ff-database-squeezed:before,
 .ff.ff-diamond:before,
 .ff.ff-dna:before,
 .ff.ff-drift:before,
@@ -95,6 +97,7 @@
 .ff.ff-network-switch:before,
 .ff.ff-parameter:before,
 .ff.ff-password:before,
+.ff.ff-project:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
 .ff.ff-software-package:before,
@@ -104,11 +107,13 @@
 .ff.ff-synchronize:before,
 .ff.ff-tab:before,
 .ff.ff-template:before,
+.ff.ff-tenant:before,
 .ff.ff-timeline:before,
 .ff.ff-triangle:before,
 .ff.ff-user-role:before,
 .ff.ff-users:before,
-.ff.ff-view-expanded:before {
+.ff.ff-view-expanded:before,
+.ff.ff-wavy-lines:before {
   display: inline-block;
   font-family: "font-fabulous";
   font-style: normal;
@@ -126,6 +131,7 @@
 .ff.ff-action:before { content: "\f11b"; }
 .ff.ff-array:before { content: "\f11c"; }
 .ff.ff-boolean:before { content: "\f103"; }
+.ff.ff-broom:before { content: "\f157"; }
 .ff.ff-circle:before { content: "\f11d"; }
 .ff.ff-class:before { content: "\f11e"; }
 .ff.ff-clone:before { content: "\f12a"; }
@@ -135,6 +141,7 @@
 .ff.ff-compare-different:before { content: "\f12c"; }
 .ff.ff-compare-same:before { content: "\f12d"; }
 .ff.ff-configured-system:before { content: "\f106"; }
+.ff.ff-database-squeezed:before { content: "\f158"; }
 .ff.ff-diamond:before { content: "\f11f"; }
 .ff.ff-dna:before { content: "\f107"; }
 .ff.ff-drift:before { content: "\f108"; }
@@ -195,6 +202,7 @@
 .ff.ff-network-switch:before { content: "\f113"; }
 .ff.ff-parameter:before { content: "\f124"; }
 .ff.ff-password:before { content: "\f130"; }
+.ff.ff-project:before { content: "\f159"; }
 .ff.ff-relationship:before { content: "\f131"; }
 .ff.ff-resource:before { content: "\f114"; }
 .ff.ff-software-package:before { content: "\f115"; }
@@ -204,15 +212,18 @@
 .ff.ff-synchronize:before { content: "\f118"; }
 .ff.ff-tab:before { content: "\f126"; }
 .ff.ff-template:before { content: "\f127"; }
+.ff.ff-tenant:before { content: "\f15a"; }
 .ff.ff-timeline:before { content: "\f128"; }
 .ff.ff-triangle:before { content: "\f129"; }
 .ff.ff-user-role:before { content: "\f119"; }
 .ff.ff-users:before { content: "\f11a"; }
 .ff.ff-view-expanded:before { content: "\f133"; }
+.ff.ff-wavy-lines:before { content: "\f15c"; }
 
 $font-font-fabulous-action: "\f11b";
 $font-font-fabulous-array: "\f11c";
 $font-font-fabulous-boolean: "\f103";
+$font-font-fabulous-broom: "\f157";
 $font-font-fabulous-circle: "\f11d";
 $font-font-fabulous-class: "\f11e";
 $font-font-fabulous-clone: "\f12a";
@@ -222,6 +233,7 @@ $font-font-fabulous-compare-all: "\f12b";
 $font-font-fabulous-compare-different: "\f12c";
 $font-font-fabulous-compare-same: "\f12d";
 $font-font-fabulous-configured-system: "\f106";
+$font-font-fabulous-database-squeezed: "\f158";
 $font-font-fabulous-diamond: "\f11f";
 $font-font-fabulous-dna: "\f107";
 $font-font-fabulous-drift: "\f108";
@@ -282,6 +294,7 @@ $font-font-fabulous-network-port: "\f112";
 $font-font-fabulous-network-switch: "\f113";
 $font-font-fabulous-parameter: "\f124";
 $font-font-fabulous-password: "\f130";
+$font-font-fabulous-project: "\f159";
 $font-font-fabulous-relationship: "\f131";
 $font-font-fabulous-resource: "\f114";
 $font-font-fabulous-software-package: "\f115";
@@ -291,8 +304,10 @@ $font-font-fabulous-string: "\f117";
 $font-font-fabulous-synchronize: "\f118";
 $font-font-fabulous-tab: "\f126";
 $font-font-fabulous-template: "\f127";
+$font-font-fabulous-tenant: "\f15a";
 $font-font-fabulous-timeline: "\f128";
 $font-font-fabulous-triangle: "\f129";
 $font-font-fabulous-user-role: "\f119";
 $font-font-fabulous-users: "\f11a";
 $font-font-fabulous-view-expanded: "\f133";
+$font-font-fabulous-wavy-lines: "\f15c";
