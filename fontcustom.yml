@@ -50,7 +50,7 @@ input:
   templates: templates
 
 output:
-  fonts: assets/fonts
+  fonts: assets/fonts/font-fabulous/
   css: assets/stylesheets
   preview.html: .
 #  my-custom-template.yml: path/to/template/output
@@ -76,7 +76,7 @@ templates:
 - scss-rails
 - preview.html
 
-#preprocessor_path: ../fonts/
+preprocessor_path: font-fabulous/
 
 
 # -----------------------------------------------------------------------------
