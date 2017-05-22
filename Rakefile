@@ -5,7 +5,7 @@ namespace :docker do
   task :init do
     system 'docker build . -t font-fabulous'
     orphaned = `docker images --filter "dangling=true" -q`
-    system "docker rmi #{orphaned}" if orphaned != ""
+    system "docker rmi #{orphaned}" if orphaned != ''
   end
 
   desc 'Compile the SVG icons into the font'

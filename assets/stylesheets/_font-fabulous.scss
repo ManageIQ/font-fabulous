@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "font-fabulous";
-  src: url("../fonts/font-fabulous.eot");
-  src: url("../fonts/font-fabulous.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/font-fabulous.woff") format("woff"),
-       url("../fonts/font-fabulous.ttf") format("truetype"),
-       url("../fonts/font-fabulous.svg#font-fabulous") format("svg");
+  src: url("font-fabulous/font-fabulous.eot");
+  src: url("font-fabulous/font-fabulous.eot?#iefix") format("embedded-opentype"),
+       url("font-fabulous/font-fabulous.woff") format("woff"),
+       url("font-fabulous/font-fabulous.ttf") format("truetype"),
+       url("font-fabulous/font-fabulous.svg#font-fabulous") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "font-fabulous";
-    src: url("../fonts/font-fabulous.svg#font-fabulous") format("svg");
+    src: url("font-fabulous/font-fabulous.svg#font-fabulous") format("svg");
   }
 }
 
@@ -128,186 +128,186 @@
   font-smoothing: antialiased;
 }
 
-.ff.ff-action:before { content: "\f11b"; }
-.ff.ff-array:before { content: "\f11c"; }
-.ff.ff-boolean:before { content: "\f103"; }
-.ff.ff-broom:before { content: "\f157"; }
-.ff.ff-circle:before { content: "\f11d"; }
-.ff.ff-class:before { content: "\f11e"; }
-.ff.ff-clone:before { content: "\f12a"; }
-.ff.ff-cloud-network:before { content: "\f104"; }
-.ff.ff-cloud-object-store:before { content: "\f105"; }
-.ff.ff-compare-all:before { content: "\f12b"; }
-.ff.ff-compare-different:before { content: "\f12c"; }
-.ff.ff-compare-same:before { content: "\f12d"; }
-.ff.ff-configured-system:before { content: "\f106"; }
-.ff.ff-database-squeezed:before { content: "\f158"; }
-.ff.ff-diamond:before { content: "\f11f"; }
-.ff.ff-dna:before { content: "\f107"; }
-.ff.ff-drift:before { content: "\f108"; }
-.ff.ff-element:before { content: "\f120"; }
-.ff.ff-exists:before { content: "\f121"; }
-.ff.ff-field:before { content: "\f109"; }
-.ff.ff-file-bat-o:before { content: "\f14e"; }
-.ff.ff-file-bmp-o:before { content: "\f14f"; }
-.ff.ff-file-com-o:before { content: "\f150"; }
-.ff.ff-file-csv-o:before { content: "\f134"; }
-.ff.ff-file-dat-o:before { content: "\f141"; }
-.ff.ff-file-dll-o:before { content: "\f13d"; }
-.ff.ff-file-doc-o:before { content: "\f13a"; }
-.ff.ff-file-ear-o:before { content: "\f100"; }
-.ff.ff-file-exe-o:before { content: "\f13b"; }
-.ff.ff-file-gif-o:before { content: "\f13c"; }
-.ff.ff-file-gz-o:before { content: "\f144"; }
-.ff.ff-file-html-o:before { content: "\f14b"; }
-.ff.ff-file-iso-o:before { content: "\f13e"; }
-.ff.ff-file-jar-o:before { content: "\f148"; }
-.ff.ff-file-java-o:before { content: "\f14c"; }
-.ff.ff-file-jpg-o:before { content: "\f137"; }
-.ff.ff-file-js-o:before { content: "\f146"; }
-.ff.ff-file-json-o:before { content: "\f151"; }
-.ff.ff-file-log-o:before { content: "\f14d"; }
-.ff.ff-file-mp3-o:before { content: "\f147"; }
-.ff.ff-file-mp4-o:before { content: "\f149"; }
-.ff.ff-file-ogg-o:before { content: "\f155"; }
-.ff.ff-file-ogv-o:before { content: "\f156"; }
-.ff.ff-file-output-o:before { content: "\f10a"; }
-.ff.ff-file-pdf-o:before { content: "\f135"; }
-.ff.ff-file-png-o:before { content: "\f138"; }
-.ff.ff-file-rar-o:before { content: "\f142"; }
-.ff.ff-file-rmp-o:before { content: "\f145"; }
-.ff.ff-file-share-o:before { content: "\f10b"; }
-.ff.ff-file-tar-o:before { content: "\f13f"; }
-.ff.ff-file-txt-o:before { content: "\f136"; }
-.ff.ff-file-war-o:before { content: "\f101"; }
-.ff.ff-file-wav-o:before { content: "\f14a"; }
-.ff.ff-file-webm-o:before { content: "\f153"; }
-.ff.ff-file-webp-o:before { content: "\f154"; }
-.ff.ff-file-xml-o:before { content: "\f139"; }
-.ff.ff-file-yaml-o:before { content: "\f152"; }
-.ff.ff-file-yml-o:before { content: "\f143"; }
-.ff.ff-file-zip-o:before { content: "\f140"; }
-.ff.ff-firewall:before { content: "\f102"; }
-.ff.ff-float:before { content: "\f12e"; }
-.ff.ff-group:before { content: "\f122"; }
-.ff.ff-hexagon:before { content: "\f123"; }
-.ff.ff-integer:before { content: "\f10c"; }
-.ff.ff-load-balancer:before { content: "\f10d"; }
-.ff.ff-manageiq:before { content: "\f10e"; }
-.ff.ff-method:before { content: "\f12f"; }
-.ff.ff-monitoring:before { content: "\f10f"; }
-.ff.ff-network-card:before { content: "\f110"; }
-.ff.ff-network-interface:before { content: "\f111"; }
-.ff.ff-network-port:before { content: "\f112"; }
-.ff.ff-network-switch:before { content: "\f113"; }
-.ff.ff-parameter:before { content: "\f124"; }
-.ff.ff-password:before { content: "\f130"; }
-.ff.ff-project:before { content: "\f159"; }
-.ff.ff-relationship:before { content: "\f131"; }
-.ff.ff-resource:before { content: "\f114"; }
-.ff.ff-software-package:before { content: "\f115"; }
-.ff.ff-stack:before { content: "\f116"; }
-.ff.ff-state:before { content: "\f132"; }
-.ff.ff-string:before { content: "\f117"; }
-.ff.ff-synchronize:before { content: "\f118"; }
-.ff.ff-tab:before { content: "\f126"; }
-.ff.ff-template:before { content: "\f127"; }
-.ff.ff-tenant:before { content: "\f15a"; }
-.ff.ff-timeline:before { content: "\f128"; }
-.ff.ff-triangle:before { content: "\f129"; }
-.ff.ff-user-role:before { content: "\f119"; }
-.ff.ff-users:before { content: "\f11a"; }
-.ff.ff-view-expanded:before { content: "\f133"; }
-.ff.ff-wavy-lines:before { content: "\f15c"; }
+.ff.ff-action:before { content: "\f100"; }
+.ff.ff-array:before { content: "\f101"; }
+.ff.ff-boolean:before { content: "\f102"; }
+.ff.ff-broom:before { content: "\f103"; }
+.ff.ff-circle:before { content: "\f104"; }
+.ff.ff-class:before { content: "\f105"; }
+.ff.ff-clone:before { content: "\f106"; }
+.ff.ff-cloud-network:before { content: "\f107"; }
+.ff.ff-cloud-object-store:before { content: "\f108"; }
+.ff.ff-compare-all:before { content: "\f109"; }
+.ff.ff-compare-different:before { content: "\f10a"; }
+.ff.ff-compare-same:before { content: "\f10b"; }
+.ff.ff-configured-system:before { content: "\f10c"; }
+.ff.ff-database-squeezed:before { content: "\f10d"; }
+.ff.ff-diamond:before { content: "\f10e"; }
+.ff.ff-dna:before { content: "\f10f"; }
+.ff.ff-drift:before { content: "\f110"; }
+.ff.ff-element:before { content: "\f111"; }
+.ff.ff-exists:before { content: "\f112"; }
+.ff.ff-field:before { content: "\f113"; }
+.ff.ff-file-bat-o:before { content: "\f114"; }
+.ff.ff-file-bmp-o:before { content: "\f115"; }
+.ff.ff-file-com-o:before { content: "\f116"; }
+.ff.ff-file-csv-o:before { content: "\f117"; }
+.ff.ff-file-dat-o:before { content: "\f118"; }
+.ff.ff-file-dll-o:before { content: "\f119"; }
+.ff.ff-file-doc-o:before { content: "\f11a"; }
+.ff.ff-file-ear-o:before { content: "\f11b"; }
+.ff.ff-file-exe-o:before { content: "\f11c"; }
+.ff.ff-file-gif-o:before { content: "\f11d"; }
+.ff.ff-file-gz-o:before { content: "\f11e"; }
+.ff.ff-file-html-o:before { content: "\f11f"; }
+.ff.ff-file-iso-o:before { content: "\f120"; }
+.ff.ff-file-jar-o:before { content: "\f121"; }
+.ff.ff-file-java-o:before { content: "\f122"; }
+.ff.ff-file-jpg-o:before { content: "\f123"; }
+.ff.ff-file-js-o:before { content: "\f124"; }
+.ff.ff-file-json-o:before { content: "\f125"; }
+.ff.ff-file-log-o:before { content: "\f126"; }
+.ff.ff-file-mp3-o:before { content: "\f127"; }
+.ff.ff-file-mp4-o:before { content: "\f128"; }
+.ff.ff-file-ogg-o:before { content: "\f129"; }
+.ff.ff-file-ogv-o:before { content: "\f12a"; }
+.ff.ff-file-output-o:before { content: "\f12b"; }
+.ff.ff-file-pdf-o:before { content: "\f12c"; }
+.ff.ff-file-png-o:before { content: "\f12d"; }
+.ff.ff-file-rar-o:before { content: "\f12e"; }
+.ff.ff-file-rmp-o:before { content: "\f12f"; }
+.ff.ff-file-share-o:before { content: "\f130"; }
+.ff.ff-file-tar-o:before { content: "\f131"; }
+.ff.ff-file-txt-o:before { content: "\f132"; }
+.ff.ff-file-war-o:before { content: "\f133"; }
+.ff.ff-file-wav-o:before { content: "\f134"; }
+.ff.ff-file-webm-o:before { content: "\f135"; }
+.ff.ff-file-webp-o:before { content: "\f136"; }
+.ff.ff-file-xml-o:before { content: "\f137"; }
+.ff.ff-file-yaml-o:before { content: "\f138"; }
+.ff.ff-file-yml-o:before { content: "\f139"; }
+.ff.ff-file-zip-o:before { content: "\f13a"; }
+.ff.ff-firewall:before { content: "\f13b"; }
+.ff.ff-float:before { content: "\f13c"; }
+.ff.ff-group:before { content: "\f13d"; }
+.ff.ff-hexagon:before { content: "\f13e"; }
+.ff.ff-integer:before { content: "\f13f"; }
+.ff.ff-load-balancer:before { content: "\f140"; }
+.ff.ff-manageiq:before { content: "\f141"; }
+.ff.ff-method:before { content: "\f142"; }
+.ff.ff-monitoring:before { content: "\f143"; }
+.ff.ff-network-card:before { content: "\f144"; }
+.ff.ff-network-interface:before { content: "\f145"; }
+.ff.ff-network-port:before { content: "\f146"; }
+.ff.ff-network-switch:before { content: "\f147"; }
+.ff.ff-parameter:before { content: "\f148"; }
+.ff.ff-password:before { content: "\f149"; }
+.ff.ff-project:before { content: "\f14a"; }
+.ff.ff-relationship:before { content: "\f14b"; }
+.ff.ff-resource:before { content: "\f14c"; }
+.ff.ff-software-package:before { content: "\f14d"; }
+.ff.ff-stack:before { content: "\f14e"; }
+.ff.ff-state:before { content: "\f14f"; }
+.ff.ff-string:before { content: "\f150"; }
+.ff.ff-synchronize:before { content: "\f151"; }
+.ff.ff-tab:before { content: "\f152"; }
+.ff.ff-template:before { content: "\f153"; }
+.ff.ff-tenant:before { content: "\f154"; }
+.ff.ff-timeline:before { content: "\f155"; }
+.ff.ff-triangle:before { content: "\f156"; }
+.ff.ff-user-role:before { content: "\f157"; }
+.ff.ff-users:before { content: "\f158"; }
+.ff.ff-view-expanded:before { content: "\f159"; }
+.ff.ff-wavy-lines:before { content: "\f15a"; }
 
-$font-font-fabulous-action: "\f11b";
-$font-font-fabulous-array: "\f11c";
-$font-font-fabulous-boolean: "\f103";
-$font-font-fabulous-broom: "\f157";
-$font-font-fabulous-circle: "\f11d";
-$font-font-fabulous-class: "\f11e";
-$font-font-fabulous-clone: "\f12a";
-$font-font-fabulous-cloud-network: "\f104";
-$font-font-fabulous-cloud-object-store: "\f105";
-$font-font-fabulous-compare-all: "\f12b";
-$font-font-fabulous-compare-different: "\f12c";
-$font-font-fabulous-compare-same: "\f12d";
-$font-font-fabulous-configured-system: "\f106";
-$font-font-fabulous-database-squeezed: "\f158";
-$font-font-fabulous-diamond: "\f11f";
-$font-font-fabulous-dna: "\f107";
-$font-font-fabulous-drift: "\f108";
-$font-font-fabulous-element: "\f120";
-$font-font-fabulous-exists: "\f121";
-$font-font-fabulous-field: "\f109";
-$font-font-fabulous-file-bat-o: "\f14e";
-$font-font-fabulous-file-bmp-o: "\f14f";
-$font-font-fabulous-file-com-o: "\f150";
-$font-font-fabulous-file-csv-o: "\f134";
-$font-font-fabulous-file-dat-o: "\f141";
-$font-font-fabulous-file-dll-o: "\f13d";
-$font-font-fabulous-file-doc-o: "\f13a";
-$font-font-fabulous-file-ear-o: "\f100";
-$font-font-fabulous-file-exe-o: "\f13b";
-$font-font-fabulous-file-gif-o: "\f13c";
-$font-font-fabulous-file-gz-o: "\f144";
-$font-font-fabulous-file-html-o: "\f14b";
-$font-font-fabulous-file-iso-o: "\f13e";
-$font-font-fabulous-file-jar-o: "\f148";
-$font-font-fabulous-file-java-o: "\f14c";
-$font-font-fabulous-file-jpg-o: "\f137";
-$font-font-fabulous-file-js-o: "\f146";
-$font-font-fabulous-file-json-o: "\f151";
-$font-font-fabulous-file-log-o: "\f14d";
-$font-font-fabulous-file-mp3-o: "\f147";
-$font-font-fabulous-file-mp4-o: "\f149";
-$font-font-fabulous-file-ogg-o: "\f155";
-$font-font-fabulous-file-ogv-o: "\f156";
-$font-font-fabulous-file-output-o: "\f10a";
-$font-font-fabulous-file-pdf-o: "\f135";
-$font-font-fabulous-file-png-o: "\f138";
-$font-font-fabulous-file-rar-o: "\f142";
-$font-font-fabulous-file-rmp-o: "\f145";
-$font-font-fabulous-file-share-o: "\f10b";
-$font-font-fabulous-file-tar-o: "\f13f";
-$font-font-fabulous-file-txt-o: "\f136";
-$font-font-fabulous-file-war-o: "\f101";
-$font-font-fabulous-file-wav-o: "\f14a";
-$font-font-fabulous-file-webm-o: "\f153";
-$font-font-fabulous-file-webp-o: "\f154";
-$font-font-fabulous-file-xml-o: "\f139";
-$font-font-fabulous-file-yaml-o: "\f152";
-$font-font-fabulous-file-yml-o: "\f143";
-$font-font-fabulous-file-zip-o: "\f140";
-$font-font-fabulous-firewall: "\f102";
-$font-font-fabulous-float: "\f12e";
-$font-font-fabulous-group: "\f122";
-$font-font-fabulous-hexagon: "\f123";
-$font-font-fabulous-integer: "\f10c";
-$font-font-fabulous-load-balancer: "\f10d";
-$font-font-fabulous-manageiq: "\f10e";
-$font-font-fabulous-method: "\f12f";
-$font-font-fabulous-monitoring: "\f10f";
-$font-font-fabulous-network-card: "\f110";
-$font-font-fabulous-network-interface: "\f111";
-$font-font-fabulous-network-port: "\f112";
-$font-font-fabulous-network-switch: "\f113";
-$font-font-fabulous-parameter: "\f124";
-$font-font-fabulous-password: "\f130";
-$font-font-fabulous-project: "\f159";
-$font-font-fabulous-relationship: "\f131";
-$font-font-fabulous-resource: "\f114";
-$font-font-fabulous-software-package: "\f115";
-$font-font-fabulous-stack: "\f116";
-$font-font-fabulous-state: "\f132";
-$font-font-fabulous-string: "\f117";
-$font-font-fabulous-synchronize: "\f118";
-$font-font-fabulous-tab: "\f126";
-$font-font-fabulous-template: "\f127";
-$font-font-fabulous-tenant: "\f15a";
-$font-font-fabulous-timeline: "\f128";
-$font-font-fabulous-triangle: "\f129";
-$font-font-fabulous-user-role: "\f119";
-$font-font-fabulous-users: "\f11a";
-$font-font-fabulous-view-expanded: "\f133";
-$font-font-fabulous-wavy-lines: "\f15c";
+$font-font-fabulous-action: "\f100";
+$font-font-fabulous-array: "\f101";
+$font-font-fabulous-boolean: "\f102";
+$font-font-fabulous-broom: "\f103";
+$font-font-fabulous-circle: "\f104";
+$font-font-fabulous-class: "\f105";
+$font-font-fabulous-clone: "\f106";
+$font-font-fabulous-cloud-network: "\f107";
+$font-font-fabulous-cloud-object-store: "\f108";
+$font-font-fabulous-compare-all: "\f109";
+$font-font-fabulous-compare-different: "\f10a";
+$font-font-fabulous-compare-same: "\f10b";
+$font-font-fabulous-configured-system: "\f10c";
+$font-font-fabulous-database-squeezed: "\f10d";
+$font-font-fabulous-diamond: "\f10e";
+$font-font-fabulous-dna: "\f10f";
+$font-font-fabulous-drift: "\f110";
+$font-font-fabulous-element: "\f111";
+$font-font-fabulous-exists: "\f112";
+$font-font-fabulous-field: "\f113";
+$font-font-fabulous-file-bat-o: "\f114";
+$font-font-fabulous-file-bmp-o: "\f115";
+$font-font-fabulous-file-com-o: "\f116";
+$font-font-fabulous-file-csv-o: "\f117";
+$font-font-fabulous-file-dat-o: "\f118";
+$font-font-fabulous-file-dll-o: "\f119";
+$font-font-fabulous-file-doc-o: "\f11a";
+$font-font-fabulous-file-ear-o: "\f11b";
+$font-font-fabulous-file-exe-o: "\f11c";
+$font-font-fabulous-file-gif-o: "\f11d";
+$font-font-fabulous-file-gz-o: "\f11e";
+$font-font-fabulous-file-html-o: "\f11f";
+$font-font-fabulous-file-iso-o: "\f120";
+$font-font-fabulous-file-jar-o: "\f121";
+$font-font-fabulous-file-java-o: "\f122";
+$font-font-fabulous-file-jpg-o: "\f123";
+$font-font-fabulous-file-js-o: "\f124";
+$font-font-fabulous-file-json-o: "\f125";
+$font-font-fabulous-file-log-o: "\f126";
+$font-font-fabulous-file-mp3-o: "\f127";
+$font-font-fabulous-file-mp4-o: "\f128";
+$font-font-fabulous-file-ogg-o: "\f129";
+$font-font-fabulous-file-ogv-o: "\f12a";
+$font-font-fabulous-file-output-o: "\f12b";
+$font-font-fabulous-file-pdf-o: "\f12c";
+$font-font-fabulous-file-png-o: "\f12d";
+$font-font-fabulous-file-rar-o: "\f12e";
+$font-font-fabulous-file-rmp-o: "\f12f";
+$font-font-fabulous-file-share-o: "\f130";
+$font-font-fabulous-file-tar-o: "\f131";
+$font-font-fabulous-file-txt-o: "\f132";
+$font-font-fabulous-file-war-o: "\f133";
+$font-font-fabulous-file-wav-o: "\f134";
+$font-font-fabulous-file-webm-o: "\f135";
+$font-font-fabulous-file-webp-o: "\f136";
+$font-font-fabulous-file-xml-o: "\f137";
+$font-font-fabulous-file-yaml-o: "\f138";
+$font-font-fabulous-file-yml-o: "\f139";
+$font-font-fabulous-file-zip-o: "\f13a";
+$font-font-fabulous-firewall: "\f13b";
+$font-font-fabulous-float: "\f13c";
+$font-font-fabulous-group: "\f13d";
+$font-font-fabulous-hexagon: "\f13e";
+$font-font-fabulous-integer: "\f13f";
+$font-font-fabulous-load-balancer: "\f140";
+$font-font-fabulous-manageiq: "\f141";
+$font-font-fabulous-method: "\f142";
+$font-font-fabulous-monitoring: "\f143";
+$font-font-fabulous-network-card: "\f144";
+$font-font-fabulous-network-interface: "\f145";
+$font-font-fabulous-network-port: "\f146";
+$font-font-fabulous-network-switch: "\f147";
+$font-font-fabulous-parameter: "\f148";
+$font-font-fabulous-password: "\f149";
+$font-font-fabulous-project: "\f14a";
+$font-font-fabulous-relationship: "\f14b";
+$font-font-fabulous-resource: "\f14c";
+$font-font-fabulous-software-package: "\f14d";
+$font-font-fabulous-stack: "\f14e";
+$font-font-fabulous-state: "\f14f";
+$font-font-fabulous-string: "\f150";
+$font-font-fabulous-synchronize: "\f151";
+$font-font-fabulous-tab: "\f152";
+$font-font-fabulous-template: "\f153";
+$font-font-fabulous-tenant: "\f154";
+$font-font-fabulous-timeline: "\f155";
+$font-font-fabulous-triangle: "\f156";
+$font-font-fabulous-user-role: "\f157";
+$font-font-fabulous-users: "\f158";
+$font-font-fabulous-view-expanded: "\f159";
+$font-font-fabulous-wavy-lines: "\f15a";
