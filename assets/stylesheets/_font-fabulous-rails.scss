@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "font-fabulous";
-  src: font-url("../fonts/font-fabulous.eot");
-  src: font-url("../fonts/font-fabulous.eot?#iefix") format("embedded-opentype"),
-       font-url("../fonts/font-fabulous.woff") format("woff"),
-       font-url("../fonts/font-fabulous.ttf") format("truetype"),
-       font-url("../fonts/font-fabulous.svg#font-fabulous") format("svg");
+  src: font-url("font-fabulous/font-fabulous.eot");
+  src: font-url("font-fabulous/font-fabulous.eot?#iefix") format("embedded-opentype"),
+       font-url("font-fabulous/font-fabulous.woff") format("woff"),
+       font-url("font-fabulous/font-fabulous.ttf") format("truetype"),
+       font-url("font-fabulous/font-fabulous.svg#font-fabulous") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "font-fabulous";
-    src: font-url("../fonts/font-fabulous.svg#font-fabulous") format("svg");
+    src: font-url("font-fabulous/font-fabulous.svg#font-fabulous") format("svg");
   }
 }
 
