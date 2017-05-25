@@ -5,6 +5,11 @@
     "Eric Winchell",
     "Dávid Halász"
   ],
+  "main": [
+    "assets/stylesheets/font-fabulous.css",
+    "assets/stylesheets/_font-fabulous.scss",
+    "assets/stylesheets/_font-fabulous-rails.scss"
+  ],
   "license": "Apache-2.0",
   "keywords": [
     "font",
@@ -14,6 +19,7 @@
   ],
   "homepage": "https://github.com/ManageIQ/font-fabulous",
   "ignore": [
+    "ci",
     "node_modules",
     "bower_components",
     "lib",
