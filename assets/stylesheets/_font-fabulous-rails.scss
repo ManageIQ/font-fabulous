@@ -28,7 +28,6 @@
 .ff.ff-attribute:before,
 .ff.ff-boolean:before,
 .ff.ff-broom:before,
-.ff.ff-circle:before,
 .ff.ff-class:before,
 .ff.ff-clone:before,
 .ff.ff-cloud-network:before,
@@ -39,6 +38,7 @@
 .ff.ff-configured-system:before,
 .ff.ff-database-squeezed:before,
 .ff.ff-diamond:before,
+.ff.ff-diamond-o:before,
 .ff.ff-dna:before,
 .ff.ff-drift:before,
 .ff.ff-element:before,
@@ -87,6 +87,7 @@
 .ff.ff-float:before,
 .ff.ff-group:before,
 .ff.ff-hexagon:before,
+.ff.ff-hexagon-o:before,
 .ff.ff-integer:before,
 .ff.ff-load-balancer:before,
 .ff.ff-manageiq:before,
@@ -97,6 +98,8 @@
 .ff.ff-network-port:before,
 .ff.ff-network-switch:before,
 .ff.ff-parameter:before,
+.ff.ff-pentagon:before,
+.ff.ff-pentagon-o:before,
 .ff.ff-project:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
@@ -110,6 +113,7 @@
 .ff.ff-tenant:before,
 .ff.ff-timeline:before,
 .ff.ff-triangle:before,
+.ff.ff-triangle-o:before,
 .ff.ff-user-role:before,
 .ff.ff-view-expanded:before,
 .ff.ff-wavy-lines:before {
@@ -132,17 +136,17 @@
 .ff.ff-attribute:before { content: "\f102"; }
 .ff.ff-boolean:before { content: "\f103"; }
 .ff.ff-broom:before { content: "\f104"; }
-.ff.ff-circle:before { content: "\f105"; }
-.ff.ff-class:before { content: "\f106"; }
-.ff.ff-clone:before { content: "\f107"; }
-.ff.ff-cloud-network:before { content: "\f108"; }
-.ff.ff-cloud-object-store:before { content: "\f109"; }
-.ff.ff-compare-all:before { content: "\f10a"; }
-.ff.ff-compare-different:before { content: "\f10b"; }
-.ff.ff-compare-same:before { content: "\f10c"; }
-.ff.ff-configured-system:before { content: "\f10d"; }
-.ff.ff-database-squeezed:before { content: "\f10e"; }
-.ff.ff-diamond:before { content: "\f10f"; }
+.ff.ff-class:before { content: "\f105"; }
+.ff.ff-clone:before { content: "\f106"; }
+.ff.ff-cloud-network:before { content: "\f107"; }
+.ff.ff-cloud-object-store:before { content: "\f108"; }
+.ff.ff-compare-all:before { content: "\f109"; }
+.ff.ff-compare-different:before { content: "\f10a"; }
+.ff.ff-compare-same:before { content: "\f10b"; }
+.ff.ff-configured-system:before { content: "\f10c"; }
+.ff.ff-database-squeezed:before { content: "\f10d"; }
+.ff.ff-diamond:before { content: "\f10e"; }
+.ff.ff-diamond-o:before { content: "\f10f"; }
 .ff.ff-dna:before { content: "\f110"; }
 .ff.ff-drift:before { content: "\f111"; }
 .ff.ff-element:before { content: "\f112"; }
@@ -191,29 +195,33 @@
 .ff.ff-float:before { content: "\f13d"; }
 .ff.ff-group:before { content: "\f13e"; }
 .ff.ff-hexagon:before { content: "\f13f"; }
-.ff.ff-integer:before { content: "\f140"; }
-.ff.ff-load-balancer:before { content: "\f141"; }
-.ff.ff-manageiq:before { content: "\f142"; }
-.ff.ff-method:before { content: "\f143"; }
-.ff.ff-monitoring:before { content: "\f144"; }
-.ff.ff-network-card:before { content: "\f145"; }
-.ff.ff-network-interface:before { content: "\f146"; }
-.ff.ff-network-port:before { content: "\f147"; }
-.ff.ff-network-switch:before { content: "\f148"; }
-.ff.ff-parameter:before { content: "\f149"; }
-.ff.ff-project:before { content: "\f14a"; }
-.ff.ff-relationship:before { content: "\f14b"; }
-.ff.ff-resource:before { content: "\f14c"; }
-.ff.ff-software-package:before { content: "\f14d"; }
-.ff.ff-stack:before { content: "\f14e"; }
-.ff.ff-state:before { content: "\f14f"; }
-.ff.ff-string:before { content: "\f150"; }
-.ff.ff-synchronize:before { content: "\f151"; }
-.ff.ff-tab:before { content: "\f152"; }
-.ff.ff-template:before { content: "\f153"; }
-.ff.ff-tenant:before { content: "\f154"; }
-.ff.ff-timeline:before { content: "\f155"; }
-.ff.ff-triangle:before { content: "\f156"; }
-.ff.ff-user-role:before { content: "\f157"; }
-.ff.ff-view-expanded:before { content: "\f158"; }
-.ff.ff-wavy-lines:before { content: "\f159"; }
+.ff.ff-hexagon-o:before { content: "\f140"; }
+.ff.ff-integer:before { content: "\f141"; }
+.ff.ff-load-balancer:before { content: "\f142"; }
+.ff.ff-manageiq:before { content: "\f143"; }
+.ff.ff-method:before { content: "\f144"; }
+.ff.ff-monitoring:before { content: "\f145"; }
+.ff.ff-network-card:before { content: "\f146"; }
+.ff.ff-network-interface:before { content: "\f147"; }
+.ff.ff-network-port:before { content: "\f148"; }
+.ff.ff-network-switch:before { content: "\f149"; }
+.ff.ff-parameter:before { content: "\f14a"; }
+.ff.ff-pentagon:before { content: "\f14b"; }
+.ff.ff-pentagon-o:before { content: "\f14c"; }
+.ff.ff-project:before { content: "\f14d"; }
+.ff.ff-relationship:before { content: "\f14e"; }
+.ff.ff-resource:before { content: "\f14f"; }
+.ff.ff-software-package:before { content: "\f150"; }
+.ff.ff-stack:before { content: "\f151"; }
+.ff.ff-state:before { content: "\f152"; }
+.ff.ff-string:before { content: "\f153"; }
+.ff.ff-synchronize:before { content: "\f154"; }
+.ff.ff-tab:before { content: "\f155"; }
+.ff.ff-template:before { content: "\f156"; }
+.ff.ff-tenant:before { content: "\f157"; }
+.ff.ff-timeline:before { content: "\f158"; }
+.ff.ff-triangle:before { content: "\f159"; }
+.ff.ff-triangle-o:before { content: "\f15a"; }
+.ff.ff-user-role:before { content: "\f15b"; }
+.ff.ff-view-expanded:before { content: "\f15c"; }
+.ff.ff-wavy-lines:before { content: "\f15d"; }
