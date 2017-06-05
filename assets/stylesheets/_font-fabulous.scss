@@ -28,7 +28,6 @@
 .ff.ff-attribute:before,
 .ff.ff-boolean:before,
 .ff.ff-broom:before,
-.ff.ff-circle:before,
 .ff.ff-class:before,
 .ff.ff-clone:before,
 .ff.ff-cloud-network:before,
@@ -39,6 +38,7 @@
 .ff.ff-configured-system:before,
 .ff.ff-database-squeezed:before,
 .ff.ff-diamond:before,
+.ff.ff-diamond-o:before,
 .ff.ff-dna:before,
 .ff.ff-drift:before,
 .ff.ff-element:before,
@@ -87,6 +87,7 @@
 .ff.ff-float:before,
 .ff.ff-group:before,
 .ff.ff-hexagon:before,
+.ff.ff-hexagon-o:before,
 .ff.ff-integer:before,
 .ff.ff-load-balancer:before,
 .ff.ff-manageiq:before,
@@ -97,6 +98,8 @@
 .ff.ff-network-port:before,
 .ff.ff-network-switch:before,
 .ff.ff-parameter:before,
+.ff.ff-pentagon:before,
+.ff.ff-pentagon-o:before,
 .ff.ff-project:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
@@ -110,6 +113,7 @@
 .ff.ff-tenant:before,
 .ff.ff-timeline:before,
 .ff.ff-triangle:before,
+.ff.ff-triangle-o:before,
 .ff.ff-user-role:before,
 .ff.ff-view-expanded:before,
 .ff.ff-wavy-lines:before {
@@ -132,7 +136,6 @@
 .ff.ff-attribute:before { content: "\f15d"; }
 .ff.ff-boolean:before { content: "\f103"; }
 .ff.ff-broom:before { content: "\f157"; }
-.ff.ff-circle:before { content: "\f11d"; }
 .ff.ff-class:before { content: "\f11e"; }
 .ff.ff-clone:before { content: "\f12a"; }
 .ff.ff-cloud-network:before { content: "\f104"; }
@@ -143,6 +146,7 @@
 .ff.ff-configured-system:before { content: "\f106"; }
 .ff.ff-database-squeezed:before { content: "\f158"; }
 .ff.ff-diamond:before { content: "\f11f"; }
+.ff.ff-diamond-o:before { content: "\f15e"; }
 .ff.ff-dna:before { content: "\f107"; }
 .ff.ff-drift:before { content: "\f108"; }
 .ff.ff-element:before { content: "\f120"; }
@@ -191,6 +195,7 @@
 .ff.ff-float:before { content: "\f12e"; }
 .ff.ff-group:before { content: "\f122"; }
 .ff.ff-hexagon:before { content: "\f123"; }
+.ff.ff-hexagon-o:before { content: "\f15f"; }
 .ff.ff-integer:before { content: "\f10c"; }
 .ff.ff-load-balancer:before { content: "\f10d"; }
 .ff.ff-manageiq:before { content: "\f10e"; }
@@ -201,6 +206,8 @@
 .ff.ff-network-port:before { content: "\f112"; }
 .ff.ff-network-switch:before { content: "\f113"; }
 .ff.ff-parameter:before { content: "\f124"; }
+.ff.ff-pentagon:before { content: "\f160"; }
+.ff.ff-pentagon-o:before { content: "\f161"; }
 .ff.ff-project:before { content: "\f159"; }
 .ff.ff-relationship:before { content: "\f131"; }
 .ff.ff-resource:before { content: "\f114"; }
@@ -214,6 +221,7 @@
 .ff.ff-tenant:before { content: "\f15a"; }
 .ff.ff-timeline:before { content: "\f128"; }
 .ff.ff-triangle:before { content: "\f129"; }
+.ff.ff-triangle-o:before { content: "\f162"; }
 .ff.ff-user-role:before { content: "\f119"; }
 .ff.ff-view-expanded:before { content: "\f133"; }
 .ff.ff-wavy-lines:before { content: "\f15c"; }
@@ -223,7 +231,6 @@ $font-font-fabulous-array: "\f11c";
 $font-font-fabulous-attribute: "\f15d";
 $font-font-fabulous-boolean: "\f103";
 $font-font-fabulous-broom: "\f157";
-$font-font-fabulous-circle: "\f11d";
 $font-font-fabulous-class: "\f11e";
 $font-font-fabulous-clone: "\f12a";
 $font-font-fabulous-cloud-network: "\f104";
@@ -234,6 +241,7 @@ $font-font-fabulous-compare-same: "\f12d";
 $font-font-fabulous-configured-system: "\f106";
 $font-font-fabulous-database-squeezed: "\f158";
 $font-font-fabulous-diamond: "\f11f";
+$font-font-fabulous-diamond-o: "\f15e";
 $font-font-fabulous-dna: "\f107";
 $font-font-fabulous-drift: "\f108";
 $font-font-fabulous-element: "\f120";
@@ -282,6 +290,7 @@ $font-font-fabulous-firewall: "\f102";
 $font-font-fabulous-float: "\f12e";
 $font-font-fabulous-group: "\f122";
 $font-font-fabulous-hexagon: "\f123";
+$font-font-fabulous-hexagon-o: "\f15f";
 $font-font-fabulous-integer: "\f10c";
 $font-font-fabulous-load-balancer: "\f10d";
 $font-font-fabulous-manageiq: "\f10e";
@@ -292,6 +301,8 @@ $font-font-fabulous-network-interface: "\f111";
 $font-font-fabulous-network-port: "\f112";
 $font-font-fabulous-network-switch: "\f113";
 $font-font-fabulous-parameter: "\f124";
+$font-font-fabulous-pentagon: "\f160";
+$font-font-fabulous-pentagon-o: "\f161";
 $font-font-fabulous-project: "\f159";
 $font-font-fabulous-relationship: "\f131";
 $font-font-fabulous-resource: "\f114";
@@ -305,6 +316,7 @@ $font-font-fabulous-template: "\f127";
 $font-font-fabulous-tenant: "\f15a";
 $font-font-fabulous-timeline: "\f128";
 $font-font-fabulous-triangle: "\f129";
+$font-font-fabulous-triangle-o: "\f162";
 $font-font-fabulous-user-role: "\f119";
 $font-font-fabulous-view-expanded: "\f133";
 $font-font-fabulous-wavy-lines: "\f15c";
