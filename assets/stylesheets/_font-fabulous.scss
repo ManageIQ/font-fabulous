@@ -97,7 +97,6 @@
 .ff.ff-network-port:before,
 .ff.ff-network-switch:before,
 .ff.ff-parameter:before,
-.ff.ff-password:before,
 .ff.ff-project:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
@@ -202,23 +201,22 @@
 .ff.ff-network-port:before { content: "\f147"; }
 .ff.ff-network-switch:before { content: "\f148"; }
 .ff.ff-parameter:before { content: "\f149"; }
-.ff.ff-password:before { content: "\f14a"; }
-.ff.ff-project:before { content: "\f14b"; }
-.ff.ff-relationship:before { content: "\f14c"; }
-.ff.ff-resource:before { content: "\f14d"; }
-.ff.ff-software-package:before { content: "\f14e"; }
-.ff.ff-stack:before { content: "\f14f"; }
-.ff.ff-state:before { content: "\f150"; }
-.ff.ff-string:before { content: "\f151"; }
-.ff.ff-synchronize:before { content: "\f152"; }
-.ff.ff-tab:before { content: "\f153"; }
-.ff.ff-template:before { content: "\f154"; }
-.ff.ff-tenant:before { content: "\f155"; }
-.ff.ff-timeline:before { content: "\f156"; }
-.ff.ff-triangle:before { content: "\f157"; }
-.ff.ff-user-role:before { content: "\f158"; }
-.ff.ff-view-expanded:before { content: "\f159"; }
-.ff.ff-wavy-lines:before { content: "\f15a"; }
+.ff.ff-project:before { content: "\f14a"; }
+.ff.ff-relationship:before { content: "\f14b"; }
+.ff.ff-resource:before { content: "\f14c"; }
+.ff.ff-software-package:before { content: "\f14d"; }
+.ff.ff-stack:before { content: "\f14e"; }
+.ff.ff-state:before { content: "\f14f"; }
+.ff.ff-string:before { content: "\f150"; }
+.ff.ff-synchronize:before { content: "\f151"; }
+.ff.ff-tab:before { content: "\f152"; }
+.ff.ff-template:before { content: "\f153"; }
+.ff.ff-tenant:before { content: "\f154"; }
+.ff.ff-timeline:before { content: "\f155"; }
+.ff.ff-triangle:before { content: "\f156"; }
+.ff.ff-user-role:before { content: "\f157"; }
+.ff.ff-view-expanded:before { content: "\f158"; }
+.ff.ff-wavy-lines:before { content: "\f159"; }
 
 $font-font-fabulous-action: "\f100";
 $font-font-fabulous-array: "\f101";
@@ -294,20 +292,19 @@ $font-font-fabulous-network-interface: "\f146";
 $font-font-fabulous-network-port: "\f147";
 $font-font-fabulous-network-switch: "\f148";
 $font-font-fabulous-parameter: "\f149";
-$font-font-fabulous-password: "\f14a";
-$font-font-fabulous-project: "\f14b";
-$font-font-fabulous-relationship: "\f14c";
-$font-font-fabulous-resource: "\f14d";
-$font-font-fabulous-software-package: "\f14e";
-$font-font-fabulous-stack: "\f14f";
-$font-font-fabulous-state: "\f150";
-$font-font-fabulous-string: "\f151";
-$font-font-fabulous-synchronize: "\f152";
-$font-font-fabulous-tab: "\f153";
-$font-font-fabulous-template: "\f154";
-$font-font-fabulous-tenant: "\f155";
-$font-font-fabulous-timeline: "\f156";
-$font-font-fabulous-triangle: "\f157";
-$font-font-fabulous-user-role: "\f158";
-$font-font-fabulous-view-expanded: "\f159";
-$font-font-fabulous-wavy-lines: "\f15a";
+$font-font-fabulous-project: "\f14a";
+$font-font-fabulous-relationship: "\f14b";
+$font-font-fabulous-resource: "\f14c";
+$font-font-fabulous-software-package: "\f14d";
+$font-font-fabulous-stack: "\f14e";
+$font-font-fabulous-state: "\f14f";
+$font-font-fabulous-string: "\f150";
+$font-font-fabulous-synchronize: "\f151";
+$font-font-fabulous-tab: "\f152";
+$font-font-fabulous-template: "\f153";
+$font-font-fabulous-tenant: "\f154";
+$font-font-fabulous-timeline: "\f155";
+$font-font-fabulous-triangle: "\f156";
+$font-font-fabulous-user-role: "\f157";
+$font-font-fabulous-view-expanded: "\f158";
+$font-font-fabulous-wavy-lines: "\f159";
