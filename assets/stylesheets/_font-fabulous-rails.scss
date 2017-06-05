@@ -112,6 +112,7 @@
 .ff.ff-timeline:before,
 .ff.ff-triangle:before,
 .ff.ff-user-role:before,
+.ff.ff-user-role-alt:before,
 .ff.ff-view-expanded:before,
 .ff.ff-wavy-lines:before {
   display: inline-block;
@@ -217,5 +218,6 @@
 .ff.ff-timeline:before { content: "\f128"; }
 .ff.ff-triangle:before { content: "\f129"; }
 .ff.ff-user-role:before { content: "\f119"; }
+.ff.ff-user-role-alt:before { content: "\f15e"; }
 .ff.ff-view-expanded:before { content: "\f133"; }
 .ff.ff-wavy-lines:before { content: "\f15c"; }
