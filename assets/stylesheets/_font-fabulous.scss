@@ -112,7 +112,6 @@
 .ff.ff-timeline:before,
 .ff.ff-triangle:before,
 .ff.ff-user-role:before,
-.ff.ff-user-role-alt:before,
 .ff.ff-view-expanded:before,
 .ff.ff-wavy-lines:before {
   display: inline-block;
@@ -218,7 +217,6 @@
 .ff.ff-timeline:before { content: "\f128"; }
 .ff.ff-triangle:before { content: "\f129"; }
 .ff.ff-user-role:before { content: "\f119"; }
-.ff.ff-user-role-alt:before { content: "\f15e"; }
 .ff.ff-view-expanded:before { content: "\f133"; }
 .ff.ff-wavy-lines:before { content: "\f15c"; }
 
@@ -311,6 +309,5 @@ $font-font-fabulous-tenant: "\f15a";
 $font-font-fabulous-timeline: "\f128";
 $font-font-fabulous-triangle: "\f129";
 $font-font-fabulous-user-role: "\f119";
-$font-font-fabulous-user-role-alt: "\f15e";
 $font-font-fabulous-view-expanded: "\f133";
 $font-font-fabulous-wavy-lines: "\f15c";
