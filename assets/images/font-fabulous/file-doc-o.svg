@@ -1,5 +1,5 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 <g>
 	<path d="M356.4,722H374c39.3,0,59-21.2,59-63.5c0-41.4-18.3-62.1-54.8-62.1h-21.8V722z"/>
 	<path d="M624.6,593.9c-16.3,0-28.5,5.5-36.8,16.4c-8.3,11-12.5,27.2-12.5,48.8c0,21.5,4.1,37.8,12.3,48.6
