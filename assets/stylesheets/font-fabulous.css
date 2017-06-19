@@ -36,6 +36,7 @@
 .ff.ff-compare-different:before,
 .ff.ff-compare-same:before,
 .ff.ff-configured-system:before,
+.ff.ff-database-connection:before,
 .ff.ff-database-squeezed:before,
 .ff.ff-diamond:before,
 .ff.ff-diamond-o:before,
@@ -101,6 +102,9 @@
 .ff.ff-pentagon:before,
 .ff.ff-pentagon-o:before,
 .ff.ff-project:before,
+.ff.ff-radar:before,
+.ff.ff-region:before,
+.ff.ff-registry:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
 .ff.ff-software-package:before,
@@ -144,6 +148,7 @@
 .ff.ff-compare-different:before { content: "\f12c"; }
 .ff.ff-compare-same:before { content: "\f12d"; }
 .ff.ff-configured-system:before { content: "\f106"; }
+.ff.ff-database-connection:before { content: "\f163"; }
 .ff.ff-database-squeezed:before { content: "\f158"; }
 .ff.ff-diamond:before { content: "\f11f"; }
 .ff.ff-diamond-o:before { content: "\f15e"; }
@@ -209,6 +214,9 @@
 .ff.ff-pentagon:before { content: "\f160"; }
 .ff.ff-pentagon-o:before { content: "\f161"; }
 .ff.ff-project:before { content: "\f159"; }
+.ff.ff-radar:before { content: "\f164"; }
+.ff.ff-region:before { content: "\f165"; }
+.ff.ff-registry:before { content: "\f166"; }
 .ff.ff-relationship:before { content: "\f131"; }
 .ff.ff-resource:before { content: "\f114"; }
 .ff.ff-software-package:before { content: "\f115"; }

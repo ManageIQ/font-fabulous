@@ -36,6 +36,7 @@
 .ff.ff-compare-different:before,
 .ff.ff-compare-same:before,
 .ff.ff-configured-system:before,
+.ff.ff-database-connection:before,
 .ff.ff-database-squeezed:before,
 .ff.ff-diamond:before,
 .ff.ff-diamond-o:before,
@@ -101,6 +102,9 @@
 .ff.ff-pentagon:before,
 .ff.ff-pentagon-o:before,
 .ff.ff-project:before,
+.ff.ff-radar:before,
+.ff.ff-region:before,
+.ff.ff-registry:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
 .ff.ff-software-package:before,
@@ -144,6 +148,7 @@
 .ff.ff-compare-different:before { content: "\f12c"; }
 .ff.ff-compare-same:before { content: "\f12d"; }
 .ff.ff-configured-system:before { content: "\f106"; }
+.ff.ff-database-connection:before { content: "\f163"; }
 .ff.ff-database-squeezed:before { content: "\f158"; }
 .ff.ff-diamond:before { content: "\f11f"; }
 .ff.ff-diamond-o:before { content: "\f15e"; }
@@ -209,6 +214,9 @@
 .ff.ff-pentagon:before { content: "\f160"; }
 .ff.ff-pentagon-o:before { content: "\f161"; }
 .ff.ff-project:before { content: "\f159"; }
+.ff.ff-radar:before { content: "\f164"; }
+.ff.ff-region:before { content: "\f165"; }
+.ff.ff-registry:before { content: "\f166"; }
 .ff.ff-relationship:before { content: "\f131"; }
 .ff.ff-resource:before { content: "\f114"; }
 .ff.ff-software-package:before { content: "\f115"; }
@@ -239,6 +247,7 @@ $font-font-fabulous-compare-all: "\f12b";
 $font-font-fabulous-compare-different: "\f12c";
 $font-font-fabulous-compare-same: "\f12d";
 $font-font-fabulous-configured-system: "\f106";
+$font-font-fabulous-database-connection: "\f163";
 $font-font-fabulous-database-squeezed: "\f158";
 $font-font-fabulous-diamond: "\f11f";
 $font-font-fabulous-diamond-o: "\f15e";
@@ -304,6 +313,9 @@ $font-font-fabulous-parameter: "\f124";
 $font-font-fabulous-pentagon: "\f160";
 $font-font-fabulous-pentagon-o: "\f161";
 $font-font-fabulous-project: "\f159";
+$font-font-fabulous-radar: "\f164";
+$font-font-fabulous-region: "\f165";
+$font-font-fabulous-registry: "\f166";
 $font-font-fabulous-relationship: "\f131";
 $font-font-fabulous-resource: "\f114";
 $font-font-fabulous-software-package: "\f115";
