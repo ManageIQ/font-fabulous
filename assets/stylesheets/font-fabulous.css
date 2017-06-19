@@ -36,6 +36,7 @@
 .ff.ff-compare-different:before,
 .ff.ff-compare-same:before,
 .ff.ff-configured-system:before,
+.ff.ff-database-connection:before,
 .ff.ff-database-squeezed:before,
 .ff.ff-diamond:before,
 .ff.ff-diamond-o:before,
@@ -101,6 +102,9 @@
 .ff.ff-pentagon:before,
 .ff.ff-pentagon-o:before,
 .ff.ff-project:before,
+.ff.ff-radar:before,
+.ff.ff-region:before,
+.ff.ff-registry:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
 .ff.ff-software-package:before,
@@ -144,84 +148,88 @@
 .ff.ff-compare-different:before { content: "\f10a"; }
 .ff.ff-compare-same:before { content: "\f10b"; }
 .ff.ff-configured-system:before { content: "\f10c"; }
-.ff.ff-database-squeezed:before { content: "\f10d"; }
-.ff.ff-diamond:before { content: "\f10e"; }
-.ff.ff-diamond-o:before { content: "\f10f"; }
-.ff.ff-dna:before { content: "\f110"; }
-.ff.ff-drift:before { content: "\f111"; }
-.ff.ff-element:before { content: "\f112"; }
-.ff.ff-exists:before { content: "\f113"; }
-.ff.ff-field:before { content: "\f114"; }
-.ff.ff-file-bat-o:before { content: "\f115"; }
-.ff.ff-file-bmp-o:before { content: "\f116"; }
-.ff.ff-file-com-o:before { content: "\f117"; }
-.ff.ff-file-csv-o:before { content: "\f118"; }
-.ff.ff-file-dat-o:before { content: "\f119"; }
-.ff.ff-file-dll-o:before { content: "\f11a"; }
-.ff.ff-file-doc-o:before { content: "\f11b"; }
-.ff.ff-file-ear-o:before { content: "\f11c"; }
-.ff.ff-file-exe-o:before { content: "\f11d"; }
-.ff.ff-file-gif-o:before { content: "\f11e"; }
-.ff.ff-file-gz-o:before { content: "\f11f"; }
-.ff.ff-file-html-o:before { content: "\f120"; }
-.ff.ff-file-iso-o:before { content: "\f121"; }
-.ff.ff-file-jar-o:before { content: "\f122"; }
-.ff.ff-file-java-o:before { content: "\f123"; }
-.ff.ff-file-jpg-o:before { content: "\f124"; }
-.ff.ff-file-js-o:before { content: "\f125"; }
-.ff.ff-file-json-o:before { content: "\f126"; }
-.ff.ff-file-log-o:before { content: "\f127"; }
-.ff.ff-file-mp3-o:before { content: "\f128"; }
-.ff.ff-file-mp4-o:before { content: "\f129"; }
-.ff.ff-file-ogg-o:before { content: "\f12a"; }
-.ff.ff-file-ogv-o:before { content: "\f12b"; }
-.ff.ff-file-output-o:before { content: "\f12c"; }
-.ff.ff-file-pdf-o:before { content: "\f12d"; }
-.ff.ff-file-png-o:before { content: "\f12e"; }
-.ff.ff-file-rar-o:before { content: "\f12f"; }
-.ff.ff-file-rmp-o:before { content: "\f130"; }
-.ff.ff-file-share-o:before { content: "\f131"; }
-.ff.ff-file-tar-o:before { content: "\f132"; }
-.ff.ff-file-txt-o:before { content: "\f133"; }
-.ff.ff-file-war-o:before { content: "\f134"; }
-.ff.ff-file-wav-o:before { content: "\f135"; }
-.ff.ff-file-webm-o:before { content: "\f136"; }
-.ff.ff-file-webp-o:before { content: "\f137"; }
-.ff.ff-file-xml-o:before { content: "\f138"; }
-.ff.ff-file-yaml-o:before { content: "\f139"; }
-.ff.ff-file-yml-o:before { content: "\f13a"; }
-.ff.ff-file-zip-o:before { content: "\f13b"; }
-.ff.ff-firewall:before { content: "\f13c"; }
-.ff.ff-float:before { content: "\f13d"; }
-.ff.ff-group:before { content: "\f13e"; }
-.ff.ff-hexagon:before { content: "\f13f"; }
-.ff.ff-hexagon-o:before { content: "\f140"; }
-.ff.ff-integer:before { content: "\f141"; }
-.ff.ff-load-balancer:before { content: "\f142"; }
-.ff.ff-manageiq:before { content: "\f143"; }
-.ff.ff-method:before { content: "\f144"; }
-.ff.ff-monitoring:before { content: "\f145"; }
-.ff.ff-network-card:before { content: "\f146"; }
-.ff.ff-network-interface:before { content: "\f147"; }
-.ff.ff-network-port:before { content: "\f148"; }
-.ff.ff-network-switch:before { content: "\f149"; }
-.ff.ff-parameter:before { content: "\f14a"; }
-.ff.ff-pentagon:before { content: "\f14b"; }
-.ff.ff-pentagon-o:before { content: "\f14c"; }
-.ff.ff-project:before { content: "\f14d"; }
-.ff.ff-relationship:before { content: "\f14e"; }
-.ff.ff-resource:before { content: "\f14f"; }
-.ff.ff-software-package:before { content: "\f150"; }
-.ff.ff-stack:before { content: "\f151"; }
-.ff.ff-state:before { content: "\f152"; }
-.ff.ff-string:before { content: "\f153"; }
-.ff.ff-synchronize:before { content: "\f154"; }
-.ff.ff-tab:before { content: "\f155"; }
-.ff.ff-template:before { content: "\f156"; }
-.ff.ff-tenant:before { content: "\f157"; }
-.ff.ff-timeline:before { content: "\f158"; }
-.ff.ff-triangle:before { content: "\f159"; }
-.ff.ff-triangle-o:before { content: "\f15a"; }
-.ff.ff-user-role:before { content: "\f15b"; }
-.ff.ff-view-expanded:before { content: "\f15c"; }
-.ff.ff-wavy-lines:before { content: "\f15d"; }
+.ff.ff-database-connection:before { content: "\f10d"; }
+.ff.ff-database-squeezed:before { content: "\f10e"; }
+.ff.ff-diamond:before { content: "\f10f"; }
+.ff.ff-diamond-o:before { content: "\f110"; }
+.ff.ff-dna:before { content: "\f111"; }
+.ff.ff-drift:before { content: "\f112"; }
+.ff.ff-element:before { content: "\f113"; }
+.ff.ff-exists:before { content: "\f114"; }
+.ff.ff-field:before { content: "\f115"; }
+.ff.ff-file-bat-o:before { content: "\f116"; }
+.ff.ff-file-bmp-o:before { content: "\f117"; }
+.ff.ff-file-com-o:before { content: "\f118"; }
+.ff.ff-file-csv-o:before { content: "\f119"; }
+.ff.ff-file-dat-o:before { content: "\f11a"; }
+.ff.ff-file-dll-o:before { content: "\f11b"; }
+.ff.ff-file-doc-o:before { content: "\f11c"; }
+.ff.ff-file-ear-o:before { content: "\f11d"; }
+.ff.ff-file-exe-o:before { content: "\f11e"; }
+.ff.ff-file-gif-o:before { content: "\f11f"; }
+.ff.ff-file-gz-o:before { content: "\f120"; }
+.ff.ff-file-html-o:before { content: "\f121"; }
+.ff.ff-file-iso-o:before { content: "\f122"; }
+.ff.ff-file-jar-o:before { content: "\f123"; }
+.ff.ff-file-java-o:before { content: "\f124"; }
+.ff.ff-file-jpg-o:before { content: "\f125"; }
+.ff.ff-file-js-o:before { content: "\f126"; }
+.ff.ff-file-json-o:before { content: "\f127"; }
+.ff.ff-file-log-o:before { content: "\f128"; }
+.ff.ff-file-mp3-o:before { content: "\f129"; }
+.ff.ff-file-mp4-o:before { content: "\f12a"; }
+.ff.ff-file-ogg-o:before { content: "\f12b"; }
+.ff.ff-file-ogv-o:before { content: "\f12c"; }
+.ff.ff-file-output-o:before { content: "\f12d"; }
+.ff.ff-file-pdf-o:before { content: "\f12e"; }
+.ff.ff-file-png-o:before { content: "\f12f"; }
+.ff.ff-file-rar-o:before { content: "\f130"; }
+.ff.ff-file-rmp-o:before { content: "\f131"; }
+.ff.ff-file-share-o:before { content: "\f132"; }
+.ff.ff-file-tar-o:before { content: "\f133"; }
+.ff.ff-file-txt-o:before { content: "\f134"; }
+.ff.ff-file-war-o:before { content: "\f135"; }
+.ff.ff-file-wav-o:before { content: "\f136"; }
+.ff.ff-file-webm-o:before { content: "\f137"; }
+.ff.ff-file-webp-o:before { content: "\f138"; }
+.ff.ff-file-xml-o:before { content: "\f139"; }
+.ff.ff-file-yaml-o:before { content: "\f13a"; }
+.ff.ff-file-yml-o:before { content: "\f13b"; }
+.ff.ff-file-zip-o:before { content: "\f13c"; }
+.ff.ff-firewall:before { content: "\f13d"; }
+.ff.ff-float:before { content: "\f13e"; }
+.ff.ff-group:before { content: "\f13f"; }
+.ff.ff-hexagon:before { content: "\f140"; }
+.ff.ff-hexagon-o:before { content: "\f141"; }
+.ff.ff-integer:before { content: "\f142"; }
+.ff.ff-load-balancer:before { content: "\f143"; }
+.ff.ff-manageiq:before { content: "\f144"; }
+.ff.ff-method:before { content: "\f145"; }
+.ff.ff-monitoring:before { content: "\f146"; }
+.ff.ff-network-card:before { content: "\f147"; }
+.ff.ff-network-interface:before { content: "\f148"; }
+.ff.ff-network-port:before { content: "\f149"; }
+.ff.ff-network-switch:before { content: "\f14a"; }
+.ff.ff-parameter:before { content: "\f14b"; }
+.ff.ff-pentagon:before { content: "\f14c"; }
+.ff.ff-pentagon-o:before { content: "\f14d"; }
+.ff.ff-project:before { content: "\f14e"; }
+.ff.ff-radar:before { content: "\f14f"; }
+.ff.ff-region:before { content: "\f150"; }
+.ff.ff-registry:before { content: "\f151"; }
+.ff.ff-relationship:before { content: "\f152"; }
+.ff.ff-resource:before { content: "\f153"; }
+.ff.ff-software-package:before { content: "\f154"; }
+.ff.ff-stack:before { content: "\f155"; }
+.ff.ff-state:before { content: "\f156"; }
+.ff.ff-string:before { content: "\f157"; }
+.ff.ff-synchronize:before { content: "\f158"; }
+.ff.ff-tab:before { content: "\f159"; }
+.ff.ff-template:before { content: "\f15a"; }
+.ff.ff-tenant:before { content: "\f15b"; }
+.ff.ff-timeline:before { content: "\f15c"; }
+.ff.ff-triangle:before { content: "\f15d"; }
+.ff.ff-triangle-o:before { content: "\f15e"; }
+.ff.ff-user-role:before { content: "\f15f"; }
+.ff.ff-view-expanded:before { content: "\f160"; }
+.ff.ff-wavy-lines:before { content: "\f161"; }
