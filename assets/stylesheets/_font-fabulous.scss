@@ -86,6 +86,7 @@
 .ff.ff-file-zip-o:before,
 .ff.ff-firewall:before,
 .ff.ff-float:before,
+.ff.ff-floating-ip:before,
 .ff.ff-group:before,
 .ff.ff-hexagon:before,
 .ff.ff-hexagon-o:before,
@@ -198,41 +199,42 @@
 .ff.ff-file-zip-o:before { content: "\f13c"; }
 .ff.ff-firewall:before { content: "\f13d"; }
 .ff.ff-float:before { content: "\f13e"; }
-.ff.ff-group:before { content: "\f13f"; }
-.ff.ff-hexagon:before { content: "\f140"; }
-.ff.ff-hexagon-o:before { content: "\f141"; }
-.ff.ff-integer:before { content: "\f142"; }
-.ff.ff-load-balancer:before { content: "\f143"; }
-.ff.ff-manageiq:before { content: "\f144"; }
-.ff.ff-method:before { content: "\f145"; }
-.ff.ff-monitoring:before { content: "\f146"; }
-.ff.ff-network-card:before { content: "\f147"; }
-.ff.ff-network-interface:before { content: "\f148"; }
-.ff.ff-network-port:before { content: "\f149"; }
-.ff.ff-network-switch:before { content: "\f14a"; }
-.ff.ff-parameter:before { content: "\f14b"; }
-.ff.ff-pentagon:before { content: "\f14c"; }
-.ff.ff-pentagon-o:before { content: "\f14d"; }
-.ff.ff-project:before { content: "\f14e"; }
-.ff.ff-radar:before { content: "\f14f"; }
-.ff.ff-region:before { content: "\f150"; }
-.ff.ff-registry:before { content: "\f151"; }
-.ff.ff-relationship:before { content: "\f152"; }
-.ff.ff-resource:before { content: "\f153"; }
-.ff.ff-software-package:before { content: "\f154"; }
-.ff.ff-stack:before { content: "\f155"; }
-.ff.ff-state:before { content: "\f156"; }
-.ff.ff-string:before { content: "\f157"; }
-.ff.ff-synchronize:before { content: "\f158"; }
-.ff.ff-tab:before { content: "\f159"; }
-.ff.ff-template:before { content: "\f15a"; }
-.ff.ff-tenant:before { content: "\f15b"; }
-.ff.ff-timeline:before { content: "\f15c"; }
-.ff.ff-triangle:before { content: "\f15d"; }
-.ff.ff-triangle-o:before { content: "\f15e"; }
-.ff.ff-user-role:before { content: "\f15f"; }
-.ff.ff-view-expanded:before { content: "\f160"; }
-.ff.ff-wavy-lines:before { content: "\f161"; }
+.ff.ff-floating-ip:before { content: "\f13f"; }
+.ff.ff-group:before { content: "\f140"; }
+.ff.ff-hexagon:before { content: "\f141"; }
+.ff.ff-hexagon-o:before { content: "\f142"; }
+.ff.ff-integer:before { content: "\f143"; }
+.ff.ff-load-balancer:before { content: "\f144"; }
+.ff.ff-manageiq:before { content: "\f145"; }
+.ff.ff-method:before { content: "\f146"; }
+.ff.ff-monitoring:before { content: "\f147"; }
+.ff.ff-network-card:before { content: "\f148"; }
+.ff.ff-network-interface:before { content: "\f149"; }
+.ff.ff-network-port:before { content: "\f14a"; }
+.ff.ff-network-switch:before { content: "\f14b"; }
+.ff.ff-parameter:before { content: "\f14c"; }
+.ff.ff-pentagon:before { content: "\f14d"; }
+.ff.ff-pentagon-o:before { content: "\f14e"; }
+.ff.ff-project:before { content: "\f14f"; }
+.ff.ff-radar:before { content: "\f150"; }
+.ff.ff-region:before { content: "\f151"; }
+.ff.ff-registry:before { content: "\f152"; }
+.ff.ff-relationship:before { content: "\f153"; }
+.ff.ff-resource:before { content: "\f154"; }
+.ff.ff-software-package:before { content: "\f155"; }
+.ff.ff-stack:before { content: "\f156"; }
+.ff.ff-state:before { content: "\f157"; }
+.ff.ff-string:before { content: "\f158"; }
+.ff.ff-synchronize:before { content: "\f159"; }
+.ff.ff-tab:before { content: "\f15a"; }
+.ff.ff-template:before { content: "\f15b"; }
+.ff.ff-tenant:before { content: "\f15c"; }
+.ff.ff-timeline:before { content: "\f15d"; }
+.ff.ff-triangle:before { content: "\f15e"; }
+.ff.ff-triangle-o:before { content: "\f15f"; }
+.ff.ff-user-role:before { content: "\f160"; }
+.ff.ff-view-expanded:before { content: "\f161"; }
+.ff.ff-wavy-lines:before { content: "\f162"; }
 
 $font-font-fabulous-action: "\f100";
 $font-font-fabulous-array: "\f101";
@@ -297,38 +299,39 @@ $font-font-fabulous-file-yml-o: "\f13b";
 $font-font-fabulous-file-zip-o: "\f13c";
 $font-font-fabulous-firewall: "\f13d";
 $font-font-fabulous-float: "\f13e";
-$font-font-fabulous-group: "\f13f";
-$font-font-fabulous-hexagon: "\f140";
-$font-font-fabulous-hexagon-o: "\f141";
-$font-font-fabulous-integer: "\f142";
-$font-font-fabulous-load-balancer: "\f143";
-$font-font-fabulous-manageiq: "\f144";
-$font-font-fabulous-method: "\f145";
-$font-font-fabulous-monitoring: "\f146";
-$font-font-fabulous-network-card: "\f147";
-$font-font-fabulous-network-interface: "\f148";
-$font-font-fabulous-network-port: "\f149";
-$font-font-fabulous-network-switch: "\f14a";
-$font-font-fabulous-parameter: "\f14b";
-$font-font-fabulous-pentagon: "\f14c";
-$font-font-fabulous-pentagon-o: "\f14d";
-$font-font-fabulous-project: "\f14e";
-$font-font-fabulous-radar: "\f14f";
-$font-font-fabulous-region: "\f150";
-$font-font-fabulous-registry: "\f151";
-$font-font-fabulous-relationship: "\f152";
-$font-font-fabulous-resource: "\f153";
-$font-font-fabulous-software-package: "\f154";
-$font-font-fabulous-stack: "\f155";
-$font-font-fabulous-state: "\f156";
-$font-font-fabulous-string: "\f157";
-$font-font-fabulous-synchronize: "\f158";
-$font-font-fabulous-tab: "\f159";
-$font-font-fabulous-template: "\f15a";
-$font-font-fabulous-tenant: "\f15b";
-$font-font-fabulous-timeline: "\f15c";
-$font-font-fabulous-triangle: "\f15d";
-$font-font-fabulous-triangle-o: "\f15e";
-$font-font-fabulous-user-role: "\f15f";
-$font-font-fabulous-view-expanded: "\f160";
-$font-font-fabulous-wavy-lines: "\f161";
+$font-font-fabulous-floating-ip: "\f13f";
+$font-font-fabulous-group: "\f140";
+$font-font-fabulous-hexagon: "\f141";
+$font-font-fabulous-hexagon-o: "\f142";
+$font-font-fabulous-integer: "\f143";
+$font-font-fabulous-load-balancer: "\f144";
+$font-font-fabulous-manageiq: "\f145";
+$font-font-fabulous-method: "\f146";
+$font-font-fabulous-monitoring: "\f147";
+$font-font-fabulous-network-card: "\f148";
+$font-font-fabulous-network-interface: "\f149";
+$font-font-fabulous-network-port: "\f14a";
+$font-font-fabulous-network-switch: "\f14b";
+$font-font-fabulous-parameter: "\f14c";
+$font-font-fabulous-pentagon: "\f14d";
+$font-font-fabulous-pentagon-o: "\f14e";
+$font-font-fabulous-project: "\f14f";
+$font-font-fabulous-radar: "\f150";
+$font-font-fabulous-region: "\f151";
+$font-font-fabulous-registry: "\f152";
+$font-font-fabulous-relationship: "\f153";
+$font-font-fabulous-resource: "\f154";
+$font-font-fabulous-software-package: "\f155";
+$font-font-fabulous-stack: "\f156";
+$font-font-fabulous-state: "\f157";
+$font-font-fabulous-string: "\f158";
+$font-font-fabulous-synchronize: "\f159";
+$font-font-fabulous-tab: "\f15a";
+$font-font-fabulous-template: "\f15b";
+$font-font-fabulous-tenant: "\f15c";
+$font-font-fabulous-timeline: "\f15d";
+$font-font-fabulous-triangle: "\f15e";
+$font-font-fabulous-triangle-o: "\f15f";
+$font-font-fabulous-user-role: "\f160";
+$font-font-fabulous-view-expanded: "\f161";
+$font-font-fabulous-wavy-lines: "\f162";
