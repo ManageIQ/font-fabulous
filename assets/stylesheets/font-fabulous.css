@@ -86,6 +86,7 @@
 .ff.ff-file-zip-o:before,
 .ff.ff-firewall:before,
 .ff.ff-float:before,
+.ff.ff-floating-ip:before,
 .ff.ff-group:before,
 .ff.ff-hexagon:before,
 .ff.ff-hexagon-o:before,
@@ -198,6 +199,7 @@
 .ff.ff-file-zip-o:before { content: "\f140"; }
 .ff.ff-firewall:before { content: "\f102"; }
 .ff.ff-float:before { content: "\f12e"; }
+.ff.ff-floating-ip:before { content: "\f167"; }
 .ff.ff-group:before { content: "\f122"; }
 .ff.ff-hexagon:before { content: "\f123"; }
 .ff.ff-hexagon-o:before { content: "\f15f"; }
