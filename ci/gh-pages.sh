@@ -8,7 +8,7 @@ git checkout upstream/gh-pages
 mv -f preview.html index.html
 rm -rf assets
 mv -f tmp assets
-git add index.html assets/fonts assets/stylesheets
+git add index.html assets/fonts
 git commit -m "GitHub pages build from ${HASH}"
 set +x
 echo "git push origin HEAD:gh-pages"
