@@ -1,7 +1,11 @@
+ci
 lib
+pkg
 templates
+.gitignore
 .fontcustom
 .fontcustom-manifest.json
+.travis.yml
 Dockerfile
 Gemfile
 Gemfile.lock
