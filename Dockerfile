@@ -5,7 +5,7 @@ ENV DEP g++ ruby-dev make
 
 RUN apt-get update && \
     apt-get -y install fontforge ruby woff-tools $DEP && \
-    gem install --no-document fontcustom && \
+    gem install --no-document fontcustom -v 1.3.8 && \
     apt-get -y autoremove $DEP
 
 WORKDIR $DIR
