@@ -6,9 +6,7 @@
     "Dávid Halász"
   ],
   "main": [
-    "assets/stylesheets/font-fabulous.css",
-    "assets/stylesheets/_font-fabulous.scss",
-    "assets/stylesheets/_font-fabulous-rails.scss"
+    "assets/stylesheets/_font-fabulous.scss"
   ],
   "license": "Apache-2.0",
   "keywords": [
