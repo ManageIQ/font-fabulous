@@ -23,7 +23,8 @@ You can find the supported icons under `assets/images/font-fabulous`, all the CS
 If installed as a gem, it is possible to include it to the Rails Asset Pipeline by adding the following lines into an scss file:
 
 ```scss
-@import "font-fabulous-rails";
+@import "font-fabulous-sprockets";
+@import "font-fabulous";
 ```
 
 ## Development

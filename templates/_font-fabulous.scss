@@ -1,0 +1,13 @@
+//
+// Icon Font: <%= font_name %>
+//
+
+$ff-asset-helper: false !default;
+
+<%= font_face(url: "font-url", path: '%wildcard%').gsub(/\"\%wildcard\%([^\"]+)\"/, "if($ff-asset-helper, \"#{@font_path_alt}\\1\", \"#{@font_path}\\1\")") %>
+
+<%= glyph_selectors %> {
+<%= glyph_properties %>
+}
+
+<%= glyphs %>
