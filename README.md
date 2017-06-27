@@ -29,9 +29,9 @@ If installed as a gem, it is possible to include it to the Rails Asset Pipeline 
 
 ## Development
 
-After checking out the repo, run `bundle install` to install dependencies. You might have to take a look at the [installation instructions](https://github.com/FontCustom/fontcustom#installation) for the `fontcustom` gem. Unfortunately, the gem requires Python2 support and it might fail if Python3 is installed on your machine. To bypass this issue, we created a Docker container that contains all the correct dependencies. You can build this container by calling `rake docker:init`, but be careful as it removes all orphaned and untagged containers from your system.
+After checking out the repo, run `bundle install` to install dependencies. You might have to take a look at the [installation instructions](https://github.com/FontCustom/fontcustom#installation) for the `fontcustom` gem.
 
-You can add new icons as svg files into the `assets/images/font-fabulous` folder and run `rake compile` or `rake docker:compile` to generate the fonts.
+You can add new icons as svg files into the `assets/images/font-fabulous` folder and run `rake compile` to generate the fonts.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `lib/font-fabulous/version.rb`, `bower.json` and `package.json`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, push the `.gem` file to [rubygems.org](https://rubygems.org) and publish the NPM package.
 
