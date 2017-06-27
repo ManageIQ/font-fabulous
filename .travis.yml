@@ -6,6 +6,12 @@ addons:
     packages:
       - fontforge
       - woff-tools
+before_install:
+  - git clone --recursive https://github.com/google/woff2.git
+  - cd woff2
+  - make clean all
+  - cd ..
+  - export PATH=$PATH:`pwd`/woff2
 deploy:
   - provider: script
     script: ci/gh-pages.sh

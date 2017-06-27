@@ -6,7 +6,6 @@ templates
 .fontcustom
 .fontcustom-manifest.json
 .travis.yml
-Dockerfile
 Gemfile
 Gemfile.lock
 Rakefile
