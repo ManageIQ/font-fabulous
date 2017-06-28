@@ -50,7 +50,7 @@ input:
   templates: templates
 
 output:
-  fonts: assets/fonts/font-fabulous/
+  fonts: assets/fonts/font-fabulous
   css: assets/stylesheets
   preview.html: .
 #  my-custom-template.yml: path/to/template/output
@@ -75,7 +75,7 @@ templates:
 - _font-fabulous.scss
 - _font-fabulous-sprockets.scss
 
-preprocessor_path: font-fabulous/
+preprocessor_path: font-fabulous
 
 
 # -----------------------------------------------------------------------------
