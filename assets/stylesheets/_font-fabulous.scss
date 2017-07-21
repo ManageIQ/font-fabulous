@@ -30,7 +30,7 @@ $ff-asset-helper: false !default;
 .ff.ff-broom:before,
 .ff.ff-class:before,
 .ff.ff-clone:before,
-.ff.ff-cloud-authentication-key-pair:before,
+.ff.ff-cloud-keys:before,
 .ff.ff-cloud-network:before,
 .ff.ff-cloud-object-store:before,
 .ff.ff-compare-all:before,
@@ -144,7 +144,7 @@ $ff-asset-helper: false !default;
 .ff.ff-broom:before { content: "\f157"; }
 .ff.ff-class:before { content: "\f11e"; }
 .ff.ff-clone:before { content: "\f12a"; }
-.ff.ff-cloud-authentication-key-pair:before { content: "\f168"; }
+.ff.ff-cloud-keys:before { content: "\f169"; }
 .ff.ff-cloud-network:before { content: "\f104"; }
 .ff.ff-cloud-object-store:before { content: "\f105"; }
 .ff.ff-compare-all:before { content: "\f12b"; }
