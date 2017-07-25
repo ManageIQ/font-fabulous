@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2017-7-21: Created with FontForge (http://fontforge.org)
+2017-7-25: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170104 at Fri Jul 21 15:02:41 2017
+Created by FontForge 20170104 at Tue Jul 25 10:31:38 2017
  By ERIC P. WINCHELL
 
 </metadata>
@@ -22,7 +22,7 @@ Created by FontForge 20170104 at Fri Jul 21 15:02:41 2017
     bbox="-0.200195 -67.2998 519.05 451.45"
     underline-thickness="25.6"
     underline-position="-51.2"
-    unicode-range="U+0020-F169"
+    unicode-range="U+0020-F16A"
   />
     <missing-glyph />
     <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
@@ -789,6 +789,8 @@ c4.60059 -2.55078 13.8008 -4.10059 26.6006 -4.10059v-10.75h-132.601v10.7002h5.65
 c-6.14941 11.25 -16.8994 16.4004 -32.25 16.4004c-23.0498 0 -46.5996 -12.8008 -69.6494 -37.9004v-141.8c0 -18.4502 1 -29.2002 3.0498 -33.7998c2.5498 -5.65039 6.65039 -9.75 11.25 -12.3008c4.59961 -2.5498 14.3496 -4.09961 29.2002 -4.09961v-10.25h-132.05
 v10.75h5.64941c13.7998 0 23.0498 3.59961 27.6504 10.25c4.59961 7.15039 7.14941 19.9502 7.14941 39.9502v99.2998c0 32.25 -0.5 51.7002 -2.0498 58.9004c-1.5498 7.19922 -3.59961 11.7998 -6.64941 14.3496c-3.05078 2.5498 -7.15039 3.59961 -12.3008 3.59961
 c-5.64941 0 -11.7998 -1.5498 -19.4492 -4.59961l-4.60059 10.75l81.4004 33.2998h12.7998v-56.8496z" />
+    <glyph glyph-name="scsi" unicode="&#xf16a;" 
+d="M14 194l248 246l146.55 -147.05l-46.5 -49.5l-104.25 105.75l-157.8 -154.2l156 -159l100 103l50 -46l-143 -144zM320 162v64h176v-64h-176z" />
     <glyph glyph-name="triangle-o" unicode="&#xf162;" 
 d="M270.5 415.15l248.55 -414.25h-497.05zM100.4 50.2998v0v0h340.199l-170.1 283.45l-170.1 -283.45v0zM21.9502 0.900391v-0.0507812l0.0498047 0.0507812h-0.0498047z" />
   </font>
