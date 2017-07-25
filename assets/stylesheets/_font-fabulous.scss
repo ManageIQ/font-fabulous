@@ -109,6 +109,7 @@ $ff-asset-helper: false !default;
 .ff.ff-registry:before,
 .ff.ff-relationship:before,
 .ff.ff-resource:before,
+.ff.ff-scsi:before,
 .ff.ff-software-package:before,
 .ff.ff-stack:before,
 .ff.ff-state:before,
@@ -223,6 +224,7 @@ $ff-asset-helper: false !default;
 .ff.ff-registry:before { content: "\f166"; }
 .ff.ff-relationship:before { content: "\f131"; }
 .ff.ff-resource:before { content: "\f114"; }
+.ff.ff-scsi:before { content: "\f16a"; }
 .ff.ff-software-package:before { content: "\f115"; }
 .ff.ff-stack:before { content: "\f116"; }
 .ff.ff-state:before { content: "\f132"; }
