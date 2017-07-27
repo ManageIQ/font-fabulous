@@ -3,15 +3,16 @@
 //
 
 $ff-asset-helper: false !default;
+$ff-font-path: "../fonts/font-fabulous"!default;
 
 @font-face {
   font-family: "font-fabulous";
-  src: font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.eot", "../fonts/font-fabulous/font-fabulous.eot"));
-  src: font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.eot?#iefix", "../fonts/font-fabulous/font-fabulous.eot?#iefix")) format("embedded-opentype"),
-       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.woff2", "../fonts/font-fabulous/font-fabulous.woff2")) format("woff2"),
-       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.woff", "../fonts/font-fabulous/font-fabulous.woff")) format("woff"),
-       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.ttf", "../fonts/font-fabulous/font-fabulous.ttf")) format("truetype"),
-       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.svg#font-fabulous", "../fonts/font-fabulous/font-fabulous.svg#font-fabulous")) format("svg");
+  src: font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.eot", "#{$ff-font-path}/font-fabulous.eot"));
+  src: font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.eot?#iefix", "#{$ff-font-path}/font-fabulous.eot?#iefix")) format("embedded-opentype"),
+       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.woff2", "#{$ff-font-path}/font-fabulous.woff2")) format("woff2"),
+       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.woff", "#{$ff-font-path}/font-fabulous.woff")) format("woff"),
+       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.ttf", "#{$ff-font-path}/font-fabulous.ttf")) format("truetype"),
+       font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.svg#font-fabulous", "#{$ff-font-path}/font-fabulous.svg#font-fabulous")) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +20,7 @@ $ff-asset-helper: false !default;
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "font-fabulous";
-    src: font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.svg#font-fabulous", "../fonts/font-fabulous/font-fabulous.svg#font-fabulous")) format("svg");
+    src: font-url(if($ff-asset-helper, "font-fabulous/font-fabulous.svg#font-fabulous", "#{$ff-font-path}/font-fabulous.svg#font-fabulous")) format("svg");
   }
 }
 
