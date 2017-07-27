@@ -3,8 +3,13 @@
 //
 
 $ff-asset-helper: false !default;
+$ff-font-path: "<%= File.dirname(@font_path) %>" !default;
 
-<%= font_face(url: "font-url", path: '%wildcard%').gsub(/\"\%wildcard\%([^\"]+)\"/, "if($ff-asset-helper, \"#{@font_path_alt}\\1\", \"#{@font_path}\\1\")") %>
+@if $ff-asset-helper {
+  <%= font_face(url: "font-url", path: @font_path_alt).gsub(/^((?!@font-face)[^\n])/, '  \1') %>
+} @else {
+  <%= font_face(path: "\#\{$ff-font-path\}/#{File.basename(@font_path)}").gsub(/^((?!@font-face)[^\n])/, '  \1') %>
+}
 
 <%= glyph_selectors %> {
 <%= glyph_properties %>
