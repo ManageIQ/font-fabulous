@@ -1,0 +1,460 @@
+{
+  "checksum": {
+    "previous": "6752a70ee0dac679a400e456259778e26a677c0d6c4dc73128af99e9162cf1fa",
+    "current": "6752a70ee0dac679a400e456259778e26a677c0d6c4dc73128af99e9162cf1fa"
+  },
+  "fonts": [
+    "assets/fonts/font-fabulous/font-fabulous.ttf",
+    "assets/fonts/font-fabulous/font-fabulous.svg",
+    "assets/fonts/font-fabulous/font-fabulous.woff",
+    "assets/fonts/font-fabulous/font-fabulous.eot",
+    "assets/fonts/font-fabulous/font-fabulous.woff2"
+  ],
+  "glyphs": {
+    "action": {
+      "codepoint": 61723,
+      "source": "assets/images/font-fabulous/action.svg"
+    },
+    "array": {
+      "codepoint": 61724,
+      "source": "assets/images/font-fabulous/array.svg"
+    },
+    "attribute": {
+      "codepoint": 61789,
+      "source": "assets/images/font-fabulous/attribute.svg"
+    },
+    "boolean": {
+      "codepoint": 61699,
+      "source": "assets/images/font-fabulous/boolean.svg"
+    },
+    "broom": {
+      "codepoint": 61783,
+      "source": "assets/images/font-fabulous/broom.svg"
+    },
+    "class": {
+      "codepoint": 61726,
+      "source": "assets/images/font-fabulous/class.svg"
+    },
+    "clone": {
+      "codepoint": 61738,
+      "source": "assets/images/font-fabulous/clone.svg"
+    },
+    "cloud-keys": {
+      "codepoint": 61801,
+      "source": "assets/images/font-fabulous/cloud-keys.svg"
+    },
+    "cloud-network": {
+      "codepoint": 61700,
+      "source": "assets/images/font-fabulous/cloud-network.svg"
+    },
+    "cloud-object-store": {
+      "codepoint": 61701,
+      "source": "assets/images/font-fabulous/cloud-object-store.svg"
+    },
+    "compare-all": {
+      "codepoint": 61739,
+      "source": "assets/images/font-fabulous/compare-all.svg"
+    },
+    "compare-different": {
+      "codepoint": 61740,
+      "source": "assets/images/font-fabulous/compare-different.svg"
+    },
+    "compare-same": {
+      "codepoint": 61741,
+      "source": "assets/images/font-fabulous/compare-same.svg"
+    },
+    "configured-system": {
+      "codepoint": 61702,
+      "source": "assets/images/font-fabulous/configured-system.svg"
+    },
+    "database-connection": {
+      "codepoint": 61795,
+      "source": "assets/images/font-fabulous/database-connection.svg"
+    },
+    "database-squeezed": {
+      "codepoint": 61784,
+      "source": "assets/images/font-fabulous/database-squeezed.svg"
+    },
+    "diamond": {
+      "codepoint": 61727,
+      "source": "assets/images/font-fabulous/diamond.svg"
+    },
+    "diamond-o": {
+      "codepoint": 61790,
+      "source": "assets/images/font-fabulous/diamond-o.svg"
+    },
+    "dna": {
+      "codepoint": 61703,
+      "source": "assets/images/font-fabulous/dna.svg"
+    },
+    "drift": {
+      "codepoint": 61704,
+      "source": "assets/images/font-fabulous/drift.svg"
+    },
+    "element": {
+      "codepoint": 61728,
+      "source": "assets/images/font-fabulous/element.svg"
+    },
+    "exists": {
+      "codepoint": 61729,
+      "source": "assets/images/font-fabulous/exists.svg"
+    },
+    "field": {
+      "codepoint": 61705,
+      "source": "assets/images/font-fabulous/field.svg"
+    },
+    "file-bat-o": {
+      "codepoint": 61774,
+      "source": "assets/images/font-fabulous/file-bat-o.svg"
+    },
+    "file-bmp-o": {
+      "codepoint": 61775,
+      "source": "assets/images/font-fabulous/file-bmp-o.svg"
+    },
+    "file-com-o": {
+      "codepoint": 61776,
+      "source": "assets/images/font-fabulous/file-com-o.svg"
+    },
+    "file-csv-o": {
+      "codepoint": 61748,
+      "source": "assets/images/font-fabulous/file-csv-o.svg"
+    },
+    "file-dat-o": {
+      "codepoint": 61761,
+      "source": "assets/images/font-fabulous/file-dat-o.svg"
+    },
+    "file-dll-o": {
+      "codepoint": 61757,
+      "source": "assets/images/font-fabulous/file-dll-o.svg"
+    },
+    "file-doc-o": {
+      "codepoint": 61754,
+      "source": "assets/images/font-fabulous/file-doc-o.svg"
+    },
+    "file-ear-o": {
+      "codepoint": 61696,
+      "source": "assets/images/font-fabulous/file-ear-o.svg"
+    },
+    "file-exe-o": {
+      "codepoint": 61755,
+      "source": "assets/images/font-fabulous/file-exe-o.svg"
+    },
+    "file-gif-o": {
+      "codepoint": 61756,
+      "source": "assets/images/font-fabulous/file-gif-o.svg"
+    },
+    "file-gz-o": {
+      "codepoint": 61764,
+      "source": "assets/images/font-fabulous/file-gz-o.svg"
+    },
+    "file-html-o": {
+      "codepoint": 61771,
+      "source": "assets/images/font-fabulous/file-html-o.svg"
+    },
+    "file-iso-o": {
+      "codepoint": 61758,
+      "source": "assets/images/font-fabulous/file-iso-o.svg"
+    },
+    "file-jar-o": {
+      "codepoint": 61768,
+      "source": "assets/images/font-fabulous/file-jar-o.svg"
+    },
+    "file-java-o": {
+      "codepoint": 61772,
+      "source": "assets/images/font-fabulous/file-java-o.svg"
+    },
+    "file-jpg-o": {
+      "codepoint": 61751,
+      "source": "assets/images/font-fabulous/file-jpg-o.svg"
+    },
+    "file-js-o": {
+      "codepoint": 61766,
+      "source": "assets/images/font-fabulous/file-js-o.svg"
+    },
+    "file-json-o": {
+      "codepoint": 61777,
+      "source": "assets/images/font-fabulous/file-json-o.svg"
+    },
+    "file-log-o": {
+      "codepoint": 61773,
+      "source": "assets/images/font-fabulous/file-log-o.svg"
+    },
+    "file-mp3-o": {
+      "codepoint": 61767,
+      "source": "assets/images/font-fabulous/file-mp3-o.svg"
+    },
+    "file-mp4-o": {
+      "codepoint": 61769,
+      "source": "assets/images/font-fabulous/file-mp4-o.svg"
+    },
+    "file-ogg-o": {
+      "codepoint": 61781,
+      "source": "assets/images/font-fabulous/file-ogg-o.svg"
+    },
+    "file-ogv-o": {
+      "codepoint": 61782,
+      "source": "assets/images/font-fabulous/file-ogv-o.svg"
+    },
+    "file-output-o": {
+      "codepoint": 61706,
+      "source": "assets/images/font-fabulous/file-output-o.svg"
+    },
+    "file-pdf-o": {
+      "codepoint": 61749,
+      "source": "assets/images/font-fabulous/file-pdf-o.svg"
+    },
+    "file-png-o": {
+      "codepoint": 61752,
+      "source": "assets/images/font-fabulous/file-png-o.svg"
+    },
+    "file-rar-o": {
+      "codepoint": 61762,
+      "source": "assets/images/font-fabulous/file-rar-o.svg"
+    },
+    "file-rmp-o": {
+      "codepoint": 61765,
+      "source": "assets/images/font-fabulous/file-rmp-o.svg"
+    },
+    "file-share-o": {
+      "codepoint": 61707,
+      "source": "assets/images/font-fabulous/file-share-o.svg"
+    },
+    "file-tar-o": {
+      "codepoint": 61759,
+      "source": "assets/images/font-fabulous/file-tar-o.svg"
+    },
+    "file-txt-o": {
+      "codepoint": 61750,
+      "source": "assets/images/font-fabulous/file-txt-o.svg"
+    },
+    "file-war-o": {
+      "codepoint": 61697,
+      "source": "assets/images/font-fabulous/file-war-o.svg"
+    },
+    "file-wav-o": {
+      "codepoint": 61770,
+      "source": "assets/images/font-fabulous/file-wav-o.svg"
+    },
+    "file-webm-o": {
+      "codepoint": 61779,
+      "source": "assets/images/font-fabulous/file-webm-o.svg"
+    },
+    "file-webp-o": {
+      "codepoint": 61780,
+      "source": "assets/images/font-fabulous/file-webp-o.svg"
+    },
+    "file-xml-o": {
+      "codepoint": 61753,
+      "source": "assets/images/font-fabulous/file-xml-o.svg"
+    },
+    "file-yaml-o": {
+      "codepoint": 61778,
+      "source": "assets/images/font-fabulous/file-yaml-o.svg"
+    },
+    "file-yml-o": {
+      "codepoint": 61763,
+      "source": "assets/images/font-fabulous/file-yml-o.svg"
+    },
+    "file-zip-o": {
+      "codepoint": 61760,
+      "source": "assets/images/font-fabulous/file-zip-o.svg"
+    },
+    "firewall": {
+      "codepoint": 61698,
+      "source": "assets/images/font-fabulous/firewall.svg"
+    },
+    "float": {
+      "codepoint": 61742,
+      "source": "assets/images/font-fabulous/float.svg"
+    },
+    "floating-ip": {
+      "codepoint": 61799,
+      "source": "assets/images/font-fabulous/floating-ip.svg"
+    },
+    "generic-object": {
+      "codepoint": 61803,
+      "source": "assets/images/font-fabulous/generic-object.svg"
+    },
+    "group": {
+      "codepoint": 61730,
+      "source": "assets/images/font-fabulous/group.svg"
+    },
+    "hexagon": {
+      "codepoint": 61731,
+      "source": "assets/images/font-fabulous/hexagon.svg"
+    },
+    "hexagon-o": {
+      "codepoint": 61791,
+      "source": "assets/images/font-fabulous/hexagon-o.svg"
+    },
+    "integer": {
+      "codepoint": 61708,
+      "source": "assets/images/font-fabulous/integer.svg"
+    },
+    "load-balancer": {
+      "codepoint": 61709,
+      "source": "assets/images/font-fabulous/load-balancer.svg"
+    },
+    "manageiq": {
+      "codepoint": 61710,
+      "source": "assets/images/font-fabulous/manageiq.svg"
+    },
+    "method": {
+      "codepoint": 61743,
+      "source": "assets/images/font-fabulous/method.svg"
+    },
+    "monitoring": {
+      "codepoint": 61711,
+      "source": "assets/images/font-fabulous/monitoring.svg"
+    },
+    "network-card": {
+      "codepoint": 61712,
+      "source": "assets/images/font-fabulous/network-card.svg"
+    },
+    "network-interface": {
+      "codepoint": 61713,
+      "source": "assets/images/font-fabulous/network-interface.svg"
+    },
+    "network-port": {
+      "codepoint": 61714,
+      "source": "assets/images/font-fabulous/network-port.svg"
+    },
+    "network-switch": {
+      "codepoint": 61715,
+      "source": "assets/images/font-fabulous/network-switch.svg"
+    },
+    "parameter": {
+      "codepoint": 61732,
+      "source": "assets/images/font-fabulous/parameter.svg"
+    },
+    "pentagon": {
+      "codepoint": 61792,
+      "source": "assets/images/font-fabulous/pentagon.svg"
+    },
+    "pentagon-o": {
+      "codepoint": 61793,
+      "source": "assets/images/font-fabulous/pentagon-o.svg"
+    },
+    "project": {
+      "codepoint": 61785,
+      "source": "assets/images/font-fabulous/project.svg"
+    },
+    "radar": {
+      "codepoint": 61796,
+      "source": "assets/images/font-fabulous/radar.svg"
+    },
+    "region": {
+      "codepoint": 61797,
+      "source": "assets/images/font-fabulous/region.svg"
+    },
+    "registry": {
+      "codepoint": 61798,
+      "source": "assets/images/font-fabulous/registry.svg"
+    },
+    "relationship": {
+      "codepoint": 61745,
+      "source": "assets/images/font-fabulous/relationship.svg"
+    },
+    "resource": {
+      "codepoint": 61716,
+      "source": "assets/images/font-fabulous/resource.svg"
+    },
+    "scsi": {
+      "codepoint": 61802,
+      "source": "assets/images/font-fabulous/scsi.svg"
+    },
+    "software-package": {
+      "codepoint": 61717,
+      "source": "assets/images/font-fabulous/software-package.svg"
+    },
+    "stack": {
+      "codepoint": 61718,
+      "source": "assets/images/font-fabulous/stack.svg"
+    },
+    "state": {
+      "codepoint": 61746,
+      "source": "assets/images/font-fabulous/state.svg"
+    },
+    "string": {
+      "codepoint": 61719,
+      "source": "assets/images/font-fabulous/string.svg"
+    },
+    "synchronize": {
+      "codepoint": 61720,
+      "source": "assets/images/font-fabulous/synchronize.svg"
+    },
+    "tab": {
+      "codepoint": 61734,
+      "source": "assets/images/font-fabulous/tab.svg"
+    },
+    "template": {
+      "codepoint": 61735,
+      "source": "assets/images/font-fabulous/template.svg"
+    },
+    "tenant": {
+      "codepoint": 61786,
+      "source": "assets/images/font-fabulous/tenant.svg"
+    },
+    "timeline": {
+      "codepoint": 61736,
+      "source": "assets/images/font-fabulous/timeline.svg"
+    },
+    "triangle": {
+      "codepoint": 61737,
+      "source": "assets/images/font-fabulous/triangle.svg"
+    },
+    "triangle-o": {
+      "codepoint": 61794,
+      "source": "assets/images/font-fabulous/triangle-o.svg"
+    },
+    "user-role": {
+      "codepoint": 61721,
+      "source": "assets/images/font-fabulous/user-role.svg"
+    },
+    "view-expanded": {
+      "codepoint": 61747,
+      "source": "assets/images/font-fabulous/view-expanded.svg"
+    },
+    "wavy-lines": {
+      "codepoint": 61788,
+      "source": "assets/images/font-fabulous/wavy-lines.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "copyright": "",
+    "css3": false,
+    "css_selector": ".ff.ff-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "font-fabulous",
+    "force": false,
+    "input": {
+      "templates": "templates",
+      "vectors": "assets/images/font-fabulous"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "assets/stylesheets",
+      "fonts": "assets/fonts/font-fabulous",
+      "preview": "assets/fonts/font-fabulous",
+      "preview.html": "."
+    },
+    "preprocessor_path": "font-fabulous",
+    "quiet": false,
+    "templates": [
+      "preview.html",
+      "_font-fabulous.scss",
+      "_font-fabulous-sprockets.scss"
+    ]
+  },
+  "templates": [
+    "./preview.html",
+    "assets/stylesheets/_font-fabulous.scss",
+    "assets/stylesheets/_font-fabulous-sprockets.scss"
+  ]
+}
