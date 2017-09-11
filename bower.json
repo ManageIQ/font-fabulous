@@ -1,10 +1,8 @@
 {
   "name": "font-fabulous",
   "description": "A fabulous iconset packaged as a font",
-  "authors": [
-    "Eric Winchell",
-    "Dávid Halász"
-  ],
+  "version": "1.0.0",
+  "author": "Red Hat",
   "main": [
     "assets/stylesheets/_font-fabulous.scss"
   ],
