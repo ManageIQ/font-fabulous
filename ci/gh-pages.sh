@@ -4,6 +4,7 @@ HASH=$(git rev-parse HEAD)
 mv -f assets tmp
 git remote add upstream https://github.com/ManageIQ/font-fabulous.git
 git fetch upstream
+git checkout .fontcustom-manifest.json
 git checkout upstream/gh-pages
 mv -f preview.html index.html
 rm -rf assets
