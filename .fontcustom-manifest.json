@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "6752a70ee0dac679a400e456259778e26a677c0d6c4dc73128af99e9162cf1fa",
-    "current": "6752a70ee0dac679a400e456259778e26a677c0d6c4dc73128af99e9162cf1fa"
+    "previous": "cb6d856443f7adc8a2b9415cb64aff7fdf6f5f5ede78e3c61e48fce0067650ac",
+    "current": "cb6d856443f7adc8a2b9415cb64aff7fdf6f5f5ede78e3c61e48fce0067650ac"
   },
   "fonts": [
     "assets/fonts/font-fabulous/font-fabulous.ttf",
@@ -106,6 +106,10 @@
     "file-bat-o": {
       "codepoint": 61774,
       "source": "assets/images/font-fabulous/file-bat-o.svg"
+    },
+    "file-bin-o": {
+      "codepoint": 61804,
+      "source": "assets/images/font-fabulous/file-bin-o.svg"
     },
     "file-bmp-o": {
       "codepoint": 61775,

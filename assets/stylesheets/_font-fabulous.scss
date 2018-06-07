@@ -69,6 +69,7 @@ $ff-font-path: "../fonts/font-fabulous" !default;
 .ff.ff-exists:before,
 .ff.ff-field:before,
 .ff.ff-file-bat-o:before,
+.ff.ff-file-bin-o:before,
 .ff.ff-file-bmp-o:before,
 .ff.ff-file-com-o:before,
 .ff.ff-file-csv-o:before,
@@ -185,6 +186,7 @@ $ff-font-path: "../fonts/font-fabulous" !default;
 .ff.ff-exists:before { content: "\f121"; }
 .ff.ff-field:before { content: "\f109"; }
 .ff.ff-file-bat-o:before { content: "\f14e"; }
+.ff.ff-file-bin-o:before { content: "\f16c"; }
 .ff.ff-file-bmp-o:before { content: "\f14f"; }
 .ff.ff-file-com-o:before { content: "\f150"; }
 .ff.ff-file-csv-o:before { content: "\f134"; }
