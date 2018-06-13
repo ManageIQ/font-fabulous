@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "cb6d856443f7adc8a2b9415cb64aff7fdf6f5f5ede78e3c61e48fce0067650ac",
-    "current": "cb6d856443f7adc8a2b9415cb64aff7fdf6f5f5ede78e3c61e48fce0067650ac"
+    "previous": "33f6e4ddaeda3536ac4d2828b00a91bb825c22961ed7a77940f385f402fc6fac",
+    "current": "33f6e4ddaeda3536ac4d2828b00a91bb825c22961ed7a77940f385f402fc6fac"
   },
   "fonts": [
     "assets/fonts/font-fabulous/font-fabulous.ttf",
@@ -30,6 +30,10 @@
     "broom": {
       "codepoint": 61783,
       "source": "assets/images/font-fabulous/broom.svg"
+    },
+    "cdrom": {
+      "codepoint": 61805,
+      "source": "assets/images/font-fabulous/cdrom.svg"
     },
     "class": {
       "codepoint": 61726,
@@ -327,6 +331,10 @@
       "codepoint": 61715,
       "source": "assets/images/font-fabulous/network-switch.svg"
     },
+    "parallel": {
+      "codepoint": 61806,
+      "source": "assets/images/font-fabulous/parallel.svg"
+    },
     "parameter": {
       "codepoint": 61732,
       "source": "assets/images/font-fabulous/parameter.svg"
@@ -338,6 +346,10 @@
     "pentagon-o": {
       "codepoint": 61793,
       "source": "assets/images/font-fabulous/pentagon-o.svg"
+    },
+    "port": {
+      "codepoint": 61807,
+      "source": "assets/images/font-fabulous/port.svg"
     },
     "project": {
       "codepoint": 61785,
@@ -366,6 +378,10 @@
     "scsi": {
       "codepoint": 61802,
       "source": "assets/images/font-fabulous/scsi.svg"
+    },
+    "serial": {
+      "codepoint": 61808,
+      "source": "assets/images/font-fabulous/serial.svg"
     },
     "software-package": {
       "codepoint": 61717,
