@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "33f6e4ddaeda3536ac4d2828b00a91bb825c22961ed7a77940f385f402fc6fac",
-    "current": "33f6e4ddaeda3536ac4d2828b00a91bb825c22961ed7a77940f385f402fc6fac"
+    "previous": "369d0755cff03231c6e794c9944e442192cc404b8df87b19cf29b2ffa21a9c9f",
+    "current": "369d0755cff03231c6e794c9944e442192cc404b8df87b19cf29b2ffa21a9c9f"
   },
   "fonts": [
     "assets/fonts/font-fabulous/font-fabulous.ttf",
@@ -330,6 +330,10 @@
     "network-switch": {
       "codepoint": 61715,
       "source": "assets/images/font-fabulous/network-switch.svg"
+    },
+    "orphaned": {
+      "codepoint": 61809,
+      "source": "assets/images/font-fabulous/orphaned.svg"
     },
     "parallel": {
       "codepoint": 61806,

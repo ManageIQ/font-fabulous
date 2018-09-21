@@ -125,6 +125,7 @@ $ff-font-path: "../fonts/font-fabulous" !default;
 .ff.ff-network-interface:before,
 .ff.ff-network-port:before,
 .ff.ff-network-switch:before,
+.ff.ff-orphaned:before,
 .ff.ff-parallel:before,
 .ff.ff-parameter:before,
 .ff.ff-pentagon:before,
@@ -246,6 +247,7 @@ $ff-font-path: "../fonts/font-fabulous" !default;
 .ff.ff-network-interface:before { content: "\f111"; }
 .ff.ff-network-port:before { content: "\f112"; }
 .ff.ff-network-switch:before { content: "\f113"; }
+.ff.ff-orphaned:before { content: "\f171"; }
 .ff.ff-parallel:before { content: "\f16e"; }
 .ff.ff-parameter:before { content: "\f124"; }
 .ff.ff-pentagon:before { content: "\f160"; }
