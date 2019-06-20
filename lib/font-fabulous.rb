@@ -62,7 +62,6 @@ module FontFabulous
     end
 
     def register_rails_engine
-      require 'sass-rails'
       require 'font-fabulous/engine'
     end
 
