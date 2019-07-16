@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "369d0755cff03231c6e794c9944e442192cc404b8df87b19cf29b2ffa21a9c9f",
-    "current": "369d0755cff03231c6e794c9944e442192cc404b8df87b19cf29b2ffa21a9c9f"
+    "previous": "42ed170cee196fc73ee3eedab3b071a0fcdec3329f81b5496e2907ef64f5e8c6",
+    "current": "42ed170cee196fc73ee3eedab3b071a0fcdec3329f81b5496e2907ef64f5e8c6"
   },
   "fonts": [
     "assets/fonts/font-fabulous/font-fabulous.ttf",
@@ -362,6 +362,10 @@
     "radar": {
       "codepoint": 61796,
       "source": "assets/images/font-fabulous/radar.svg"
+    },
+    "red-hat-logo": {
+      "codepoint": 61810,
+      "source": "assets/images/font-fabulous/red-hat-logo.svg"
     },
     "region": {
       "codepoint": 61797,
