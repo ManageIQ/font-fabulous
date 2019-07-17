@@ -1,7 +1,7 @@
 {
   "name": "font-fabulous",
   "description": "A fabulous iconset packaged as a font",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Red Hat",
   "main": [
     "assets/stylesheets/_font-fabulous.scss"
