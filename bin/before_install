@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+if [ -n "$CI" ]; then
+  echo "== Installing system packages =="
+  sudo apt-get install -y fontforge woff-tools woff2
+  echo
+fi

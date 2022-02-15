@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron: '0 0 * * 0'
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up system
+      run: bin/before_install
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true
+    - name: Run tests
+      run: bundle exec rake
+    - name: Deploy
+      if: ${{ github.event_name == 'push' && github.repository_owner == 'ManageIQ' && github.ref_name == 'master' }}
+      run: bin/deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
