@@ -2,9 +2,9 @@ require 'bundler/gem_tasks'
 
 desc 'Compile the SVG icons into the font'
 task :compile do
-  result = `fontcustom compile`
-  puts result
-  raise StandardError if result =~ /error/
+  puts "Compiling with fontcustom..."
+  exit($?.exitstatus) unless system "fontcustom compile --debug"
+  puts "Compiling with fontcustom...Complete"
 end
 
 desc 'Run a server displaying all the available icons'
