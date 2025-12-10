@@ -1,11 +1,18 @@
 name: CI
-
 on:
-  push:
   pull_request:
+  push:
+    branches-ignore:
+    - dependabot/*
+    - renovate/*
   schedule:
-  - cron: '0 0 * * 0'
-
+  - cron: 0 0 * * 0
+  workflow_dispatch:
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+permissions:
+  contents: read
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -22,7 +29,7 @@ jobs:
     - name: Run tests
       run: bundle exec rake
     - name: Deploy
-      if: ${{ github.event_name == 'push' && github.repository_owner == 'ManageIQ' && github.ref_name == 'master' }}
+      if: "${{ github.event_name == 'push' && github.repository_owner == 'ManageIQ' && github.ref_name == 'master' }}"
       run: bin/deploy
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
