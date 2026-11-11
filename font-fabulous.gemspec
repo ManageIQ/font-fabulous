@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "fontcustom", "~> 2.0.0"
+  spec.add_development_dependency "fontcustom", "~> 3.0.0"
 end
